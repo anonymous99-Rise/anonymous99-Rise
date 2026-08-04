@@ -9,6 +9,7 @@ Sections generated:
   1. operations / recent focus  — last 3 repos with recent commits
   2. live_pulse                 — stars / followers / public_repos delta
                                   + last 24h CVE count from NVD
+  3. feed                       — Sploitus CVEs, LinuxDo, Reddit netsec/cybersecurity
 
 Designed to be:
   - idempotent (re-running on a stale README produces same output)
@@ -20,11 +21,15 @@ Requires env: GH_TOKEN, GH_USER
 
 from __future__ import annotations
 
+import base64
 import os
 import re
+import subprocess
 import sys
 import time
 import datetime as dt
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 import requests
@@ -42,17 +47,17 @@ NVD_API = "https://services.nvd.nist.gov/rest/json/cves/2.0"
 WAKATIME_API_KEY = os.environ.get("WAKATIME_API_KEY", "")
 WAKATIME_USER = os.environ.get("WAKATIME_USER", "anonymous99-Rise")
 
-# RSS feeds to surface under live_pulse. Each entry: (label, url, max_items)
-# Sources are GitHub Pages-hosted RSS (so they aggregate CONTENT, not just
-# commit history — much more useful for a "what am i shipping" feed).
-RSS_FEEDS = [
-    ("cve_monitor",       "https://anonymous99-rise.github.io/cve_monitor/RSS/cve_rss.xml", 3),
-    ("ai-mentor-xiaoxi",  "https://anonymous99-rise.github.io/ai-mentor-xiaoxi/rss.xml", 3),
+# Feed config: each entry is a dict with keys:
+#   type  — "sploitus", "linuxdo", or "reddit"
+#   label — display name for the section header
+#   url   — RSS URL (for sploitus/linuxdo) or subreddit name (for reddit)
+#   max   — max items to show
+FEEDS = [
+    {"type": "sploitus",     "label": "sploitus",       "url": "https://sploitus.com/rss",                "max": 5},
+    {"type": "linuxdo",      "label": "linuxdo",        "url": "https://linux.do/top.rss?period=daily",   "max": 5},
+    {"type": "reddit",       "label": "hacking",        "url": "netsec",                                  "max": 3},
+    {"type": "reddit",       "label": "cybersecurity",  "url": "cybersecurity",                           "max": 3},
 ]
-
-# Two anchored sections in README, identified by their containing headings.
-# Each tuple: (anchor_heading_text, new_content_block)
-HEADING_TO_CONTENT = []  # filled by build_operations() and build_pulse()
 
 # ---------- helpers -------------------------------------------------------
 
@@ -131,54 +136,102 @@ def gh_paginate_total_stars() -> int | None:
     return total
 
 
-def fetch_rss_items(url: str, max_items: int) -> list[dict]:
-    """
-    Parse a feed (RSS 2.0 OR Atom). GitHub Pages-hosted generators often emit
-    RSS 2.0; GitHub's own commits feed emits Atom. We try both.
-    Returns list of {title, link, updated} dicts.
-    """
-    import xml.etree.ElementTree as ET
+def _parse_pub_date(pub: str) -> str:
+    """Normalize an RSS pubDate string to YYYY-MM-DD."""
+    if not pub:
+        return ""
+    try:
+        return parsedate_to_datetime(pub).strftime("%Y-%m-%d")
+    except Exception:
+        return pub[:10]
+
+
+def _curl_fetch(url: str, headers: list[str]) -> str:
+    """Download a URL using curl and return response body as string."""
+    curl_cmd = ["curl", "-s", "-L", "--max-time", "15", *headers, url]
+    return subprocess.check_output(curl_cmd, stderr=subprocess.DEVNULL).decode("utf-8", errors="replace")
+
+
+# ---------------------------------------------------------------------------
+# Sploitus RSS — aggregates CVEs/exploits from multiple sources
+# ---------------------------------------------------------------------------
+def fetch_sploitus(url: str, max_items: int) -> list[dict]:
+    """Parse Sploitus RSS (https://sploitus.com/rss)."""
     try:
         r = requests.get(url, timeout=15, headers={"User-Agent": "profile-pulse/1.0"})
         r.raise_for_status()
         root = ET.fromstring(r.text)
         items: list[dict] = []
-
-        # --- Atom: <feed xmlns="http://www.w3.org/2005/Atom"><entry>...</entry></feed>
-        atom_ns = {"a": "http://www.w3.org/2005/Atom"}
-        for entry in root.findall("a:entry", atom_ns):
-            title = (entry.findtext("a:title", default="", namespaces=atom_ns) or "").strip()
-            link_el = entry.find("a:link", atom_ns)
-            link = link_el.get("href", "#") if link_el is not None else "#"
-            updated = (entry.findtext("a:updated", default="", namespaces=atom_ns) or "")[:10]
+        for item in root.findall(".//item"):
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "#").strip()
+            pub = item.findtext("pubDate") or ""
             if title:
-                items.append({"title": title, "link": link, "updated": updated})
+                items.append({"title": title, "link": link, "updated": _parse_pub_date(pub)})
             if len(items) >= max_items:
                 break
-
-        if not items:
-            # --- RSS 2.0: <rss><channel><item><title>...</title><link>...</link><pubDate>...</pubDate>
-            for item in root.findall(".//item"):
-                title = (item.findtext("title") or "").strip()
-                link = (item.findtext("link") or "#").strip()
-                pub = (item.findtext("pubDate") or "")
-                # normalize "Tue, 28 Jul 2026 10:00:00 GMT" → "2026-07-28"
-                updated = ""
-                if pub:
-                    from email.utils import parsedate_to_datetime
-                    try:
-                        updated = parsedate_to_datetime(pub).strftime("%Y-%m-%d")
-                    except Exception:
-                        updated = pub[:10]
-                if title:
-                    items.append({"title": title, "link": link, "updated": updated})
-                if len(items) >= max_items:
-                    break
-
         return items
     except Exception as e:
-        print(f"  ! rss fetch {url} failed: {e}", file=sys.stderr)
+        print(f"  ! sploitus fetch failed: {e}", file=sys.stderr)
         return []
+
+
+# ---------------------------------------------------------------------------
+# LinuxDo (uses curl to bypass Cloudflare TLS fingerprint)
+# ---------------------------------------------------------------------------
+def fetch_linuxdo(url: str, max_items: int) -> list[dict]:
+    """Fetch hot posts from LinuxDo via RSS, using curl to bypass Cloudflare."""
+    results = []
+    curl_headers = [
+        "-H", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "-H", "Accept: application/atom+xml, application/rss+xml, application/xml, text/xml, */*",
+        "-H", "Accept-Language: zh-CN,zh;q=0.9,en;q=0.8",
+    ]
+    try:
+        xml = _curl_fetch(url, curl_headers)
+        root = ET.fromstring(xml)
+        for item in root.findall(".//item"):
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "#").strip()
+            pub = item.findtext("pubDate") or ""
+            if title:
+                results.append({"title": title, "link": link, "updated": _parse_pub_date(pub)})
+            if len(results) >= max_items:
+                break
+    except Exception as e:
+        print(f"  ! linuxdo fetch failed: {e}", file=sys.stderr)
+    return results
+
+
+# ---------------------------------------------------------------------------
+# Reddit (uses curl to bypass Reddit's UA restrictions)
+# ---------------------------------------------------------------------------
+def fetch_reddit(subreddit: str, max_items: int) -> list[dict]:
+    """Fetch hot posts from Reddit via RSS, using curl for UA compatibility."""
+    results = []
+    curl_headers = [
+        "-H", "User-Agent: Mozilla/5.0 (compatible; ai-daily-newsletter/1.0)",
+        "-H", "Accept: application/atom+xml, application/rss+xml, */*",
+    ]
+    try:
+        url = f"https://www.reddit.com/r/{subreddit}/hot/.rss?limit={max_items}"
+        xml = _curl_fetch(url, curl_headers)
+        root = ET.fromstring(xml)
+        for item in root.findall(".//item"):
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "#").strip()
+            pub = item.findtext("pubDate") or ""
+            # skip stickied posts
+            category = item.findtext("category") or ""
+            if "stickied" in category.lower():
+                continue
+            if title:
+                results.append({"title": title, "link": link, "updated": _parse_pub_date(pub)})
+            if len(results) >= max_items:
+                break
+    except Exception as e:
+        print(f"  ! reddit r/{subreddit} fetch failed: {e}", file=sys.stderr)
+    return results
 
 
 def wakatime_get_summary() -> dict | None:
@@ -193,7 +246,6 @@ def wakatime_get_summary() -> dict | None:
     """
     if not WAKATIME_API_KEY:
         return None
-    import base64
     basic = base64.b64encode(f"{WAKATIME_API_KEY}:".encode()).decode()
     auth = {"Authorization": f"Basic {basic}"}
 
@@ -339,28 +391,44 @@ def build_pulse() -> str:
 
 
 def build_feed() -> str:
-    """Render a list of recent commits pulled from GitHub commit RSS feeds."""
-    print("→ fetching commit feeds…")
+    """Render feed items from multiple source types: sploitus, linuxdo, reddit."""
+    print("→ fetching feeds…")
     sections: list[str] = []
 
-    for label, url, max_items in RSS_FEEDS:
-        items = fetch_rss_items(url, max_items)
+    for feed in FEEDS:
+        feed_type = feed["type"]
+        label = feed["label"]
+        url = feed["url"]
+        max_items = feed["max"]
+
+        if feed_type == "sploitus":
+            items = fetch_sploitus(url, max_items)
+        elif feed_type == "linuxdo":
+            items = fetch_linuxdo(url, max_items)
+        elif feed_type == "reddit":
+            items = fetch_reddit(url, max_items)
+        else:
+            continue
+
         if not items:
             continue
-        repo_name = label
+
         rows = []
         for item in items:
-            # truncate long commit titles
             title = item["title"]
             if len(title) > 70:
                 title = title[:67] + "…"
             rows.append(f"- <code>{item['updated']}</code> · [{title}]({item['link']})")
-        sections.append(
-            f"#### ▸ [`{repo_name}`](https://github.com/anonymous99-Rise/{repo_name})\n\n" + "\n".join(rows)
-        )
+
+        if feed_type == "sploitus":
+            sections.append(f"#### ▸ Sploitus (exploits & CVEs)\n\n" + "\n".join(rows))
+        elif feed_type == "linuxdo":
+            sections.append(f"#### ▸ LinuxDo\n\n" + "\n".join(rows))
+        elif feed_type == "reddit":
+            sections.append(f"#### ▸ [`r/{label}`](https://reddit.com/r/{label})\n\n" + "\n".join(rows))
 
     if not sections:
-        return _fallback_block("feed", "rss unavailable", wrap_in_sub=True)
+        return _fallback_block("feed", "all feeds unavailable", wrap_in_sub=True)
 
     return "\n\n".join(sections)
 
