@@ -370,6 +370,42 @@ def build_pulse() -> str:
     return md
 
 
+def build_priority_targets() -> str:
+    """Fetch top repos by stars, format as the priority_targets table."""
+    print("→ fetching top repos by stars…")
+    r = gh_get(f"/users/{GH_USER}/repos", {
+        "sort": "stargazers",
+        "direction": "desc",
+        "per_page": 6,
+        "type": "owner",
+    })
+    if r is None:
+        return _fallback_block("priority_targets", "gh api unavailable")
+
+    repos = [repo for repo in r.json() if not repo.get("archived") and not repo.get("fork")]
+    if not repos:
+        return _fallback_block("priority_targets", "no repos found")
+
+    # emoji pool for visual variety
+    emojis = ["🎯", "🛰️", "🔥", "🕸️", "📡", "🐚", "🔎", "🧲", "🧭", "🪤"]
+
+    rows = ["| | repo | what it does | lang |", "|---|---|---|---|"]
+    for i, repo in enumerate(repos):
+        name = repo["name"]
+        link = f"https://github.com/{GH_USER}/{name}"
+        desc = (repo.get("description") or "no description").strip().split("\n")[0]
+        if len(desc) > 70:
+            desc = desc[:67] + "…"
+        lang = repo.get("language") or "—"
+        stars = repo.get("stargazers_count", 0)
+        emoji = emojis[i % len(emojis)]
+        rows.append(
+            f"| {emoji} | **[{name}]({link})** | {desc} | `{lang}` ⭐{stars} |"
+        )
+
+    return "\n".join(rows)
+
+
 def build_feed() -> str:
     """Render feed items from multiple source types: sploitus, rss."""
     print("→ fetching feeds…")
@@ -515,6 +551,7 @@ def main() -> int:
 
     text = inject(text, "operations", build_operations())
     time.sleep(0.5)  # be polite to GitHub API
+    text = inject(text, "priority_targets", build_priority_targets())
     text = inject(text, "live_pulse", build_pulse())
     text = inject(text, "feed", build_feed())
     text = inject(text, "wakatime", build_wakatime())

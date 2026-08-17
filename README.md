@@ -57,6 +57,7 @@ followers  : 3   following : 11   repos : 176
 
 > my pinned repos — what i actually ship
 
+<!-- DYNAMIC:START -->
 | | repo | what it does | lang |
 |---|---|---|---|
 | 🎯 | **[AI-Account-Toolkit](https://github.com/anonymous99-Rise/AI-Account-Toolkit)** | 浴火重生 · AI 账号注册与管理一站式工具集 — ChatGPT / Claude / Gemini / Codex / Cursor / Grok 批量注册、Token 管理、临时邮箱 | `Python` ⭐8 |
@@ -65,6 +66,7 @@ followers  : 3   following : 11   repos : 176
 | 🕸️ | **[DarkWeb-Forums-Tracker](https://github.com/anonymous99-Rise/DarkWeb-Forums-Tracker)** | 暗网论坛/帖子追踪器 | `HTML` |
 | 📡 | **[github-cve-monitor](https://github.com/anonymous99-Rise/github-cve-monitor)** | fork · 监控 GitHub 上新增 CVE / 自定义关键字 / 安全工具,多渠道推送 | `Python` |
 | 🛰️ | **[github_monitor](https://github.com/anonymous99-Rise/github_monitor)** | fork · CVE / 关键词 / 安全工具 / 大佬仓库全维度监控,多渠道推送 | `HTML` |
+<!-- DYNAMIC:END -->
 
 ---
 
