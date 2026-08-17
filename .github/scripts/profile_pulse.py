@@ -48,15 +48,15 @@ WAKATIME_API_KEY = os.environ.get("WAKATIME_API_KEY", "")
 WAKATIME_USER = os.environ.get("WAKATIME_USER", "anonymous99-Rise")
 
 # Feed config: each entry is a dict with keys:
-#   type  — "sploitus", "linuxdo", or "reddit"
-#   label — display name for the section header
-#   url   — RSS URL (for sploitus/linuxdo) or subreddit name (for reddit)
+#   type  — "sploitus" or "rss"
+#   label — display name for the subsection header
+#   url   — RSS URL
 #   max   — max items to show
 FEEDS = [
-    {"type": "sploitus",     "label": "sploitus",       "url": "https://sploitus.com/rss",                "max": 5},
-    {"type": "linuxdo",      "label": "linuxdo",        "url": "https://linux.do/top.rss?period=daily",   "max": 5},
-    {"type": "reddit",       "label": "hacking",        "url": "netsec",                                  "max": 3},
-    {"type": "reddit",       "label": "cybersecurity",  "url": "cybersecurity",                           "max": 3},
+    {"type": "sploitus", "label": "sploitus",     "url": "https://sploitus.com/rss",                       "max": 5},
+    {"type": "rss",      "label": "steipete",     "url": "https://steipete.me/rss.xml",                     "max": 3},
+    {"type": "rss",      "label": "cryptoeng",    "url": "https://blog.cryptographyengineering.com/feed/",  "max": 3},
+    {"type": "rss",      "label": "trailofbits",  "url": "https://blog.trailofbits.com/feed/",             "max": 3},
 ]
 
 # ---------- helpers -------------------------------------------------------
@@ -177,61 +177,41 @@ def fetch_sploitus(url: str, max_items: int) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# LinuxDo (uses curl to bypass Cloudflare TLS fingerprint)
+# RSS fetcher — handles any generic RSS/Atom feed
 # ---------------------------------------------------------------------------
-def fetch_linuxdo(url: str, max_items: int) -> list[dict]:
-    """Fetch hot posts from LinuxDo via RSS, using curl to bypass Cloudflare."""
-    results = []
-    curl_headers = [
-        "-H", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "-H", "Accept: application/atom+xml, application/rss+xml, application/xml, text/xml, */*",
-        "-H", "Accept-Language: zh-CN,zh;q=0.9,en;q=0.8",
-    ]
+def fetch_rss(url: str, max_items: int) -> list[dict]:
+    """Fetch and parse any RSS/Atom feed. Returns list of {title, link, updated}."""
     try:
-        xml = _curl_fetch(url, curl_headers)
-        root = ET.fromstring(xml)
-        for item in root.findall(".//item"):
+        r = requests.get(
+            url,
+            timeout=15,
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+                "Accept-Language": "en-US,en;q=0.9",
+            },
+        )
+        r.raise_for_status()
+        root = ET.fromstring(r.text)
+        results: list[dict] = []
+        for item in root.findall(".//item") + root.findall(".//entry"):
             title = (item.findtext("title") or "").strip()
-            link = (item.findtext("link") or "#").strip()
-            pub = item.findtext("pubDate") or ""
+            # link: RSS uses <link>, Atom uses <link href="...">
+            link_elem = item.find("link")
+            if link_elem is not None:
+                link = link_elem.text or link_elem.get("href") or "#"
+            else:
+                link = item.findtext("link") or "#"
+            link = link.strip()
+            pub = item.findtext("pubDate") or item.findtext("published") or item.findtext("updated") or ""
             if title:
                 results.append({"title": title, "link": link, "updated": _parse_pub_date(pub)})
             if len(results) >= max_items:
                 break
+        return results
     except Exception as e:
-        print(f"  ! linuxdo fetch failed: {e}", file=sys.stderr)
-    return results
-
-
-# ---------------------------------------------------------------------------
-# Reddit (uses curl to bypass Reddit's UA restrictions)
-# ---------------------------------------------------------------------------
-def fetch_reddit(subreddit: str, max_items: int) -> list[dict]:
-    """Fetch hot posts from Reddit via RSS, using curl for UA compatibility."""
-    results = []
-    curl_headers = [
-        "-H", "User-Agent: Mozilla/5.0 (compatible; ai-daily-newsletter/1.0)",
-        "-H", "Accept: application/atom+xml, application/rss+xml, */*",
-    ]
-    try:
-        url = f"https://www.reddit.com/r/{subreddit}/hot/.rss?limit={max_items}"
-        xml = _curl_fetch(url, curl_headers)
-        root = ET.fromstring(xml)
-        for item in root.findall(".//item"):
-            title = (item.findtext("title") or "").strip()
-            link = (item.findtext("link") or "#").strip()
-            pub = item.findtext("pubDate") or ""
-            # skip stickied posts
-            category = item.findtext("category") or ""
-            if "stickied" in category.lower():
-                continue
-            if title:
-                results.append({"title": title, "link": link, "updated": _parse_pub_date(pub)})
-            if len(results) >= max_items:
-                break
-    except Exception as e:
-        print(f"  ! reddit r/{subreddit} fetch failed: {e}", file=sys.stderr)
-    return results
+        print(f"  ! rss fetch failed ({url}): {e}", file=sys.stderr)
+        return []
 
 
 def wakatime_get_summary() -> dict | None:
@@ -391,7 +371,7 @@ def build_pulse() -> str:
 
 
 def build_feed() -> str:
-    """Render feed items from multiple source types: sploitus, linuxdo, reddit."""
+    """Render feed items from multiple source types: sploitus, rss."""
     print("→ fetching feeds…")
     sections: list[str] = []
 
@@ -403,12 +383,13 @@ def build_feed() -> str:
 
         if feed_type == "sploitus":
             items = fetch_sploitus(url, max_items)
-        elif feed_type == "linuxdo":
-            items = fetch_linuxdo(url, max_items)
-        elif feed_type == "reddit":
-            items = fetch_reddit(url, max_items)
         else:
-            continue
+            items = fetch_rss(url, max_items)
+
+        if items:
+            print(f"  ✓ {label}: {len(items)} items")
+        else:
+            print(f"  ! {label}: no items (source may be blocked)")
 
         if not items:
             continue
@@ -422,13 +403,19 @@ def build_feed() -> str:
 
         if feed_type == "sploitus":
             sections.append(f"#### ▸ Sploitus (exploits & CVEs)\n\n" + "\n".join(rows))
-        elif feed_type == "linuxdo":
-            sections.append(f"#### ▸ LinuxDo\n\n" + "\n".join(rows))
-        elif feed_type == "reddit":
-            sections.append(f"#### ▸ [`r/{label}`](https://reddit.com/r/{label})\n\n" + "\n".join(rows))
+        else:
+            sections.append(f"#### ▸ [{label}]({url})\n\n" + "\n".join(rows))
 
     if not sections:
-        return _fallback_block("feed", "all feeds unavailable", wrap_in_sub=True)
+        # All feeds failed. Render a graceful fallback with direct links.
+        return (
+            "\n"
+            "⏳ feeds blocked from GitHub Actions runner · "
+            "[Sploitus](https://sploitus.com) · "
+            "[steipete](https://steipete.me) · "
+            "[cryptoeng](https://blog.cryptographyengineering.com) · "
+            "[trailofbits](https://blog.trailofbits.com)\n"
+        )
 
     return "\n\n".join(sections)
 
@@ -496,8 +483,8 @@ def inject(readme_text: str, heading: str, new_content: str) -> str:
     <!-- DYNAMIC:START --> ... <!-- DYNAMIC:END --> block inside it with
     `new_content`. If no marker pair found, no-op (returns text unchanged).
     """
-    # locate heading line: ## anything operations
-    h_re = re.compile(rf"^##[^a-zA-Z]*{re.escape(heading)}\s*$", re.MULTILINE)
+    # locate heading line: ## anything (case-insensitive, handles emoji)
+    h_re = re.compile(rf"^##.*{re.escape(heading)}.*$", re.MULTILINE | re.IGNORECASE)
     m_h = h_re.search(readme_text)
     if not m_h:
         print(f"  ! heading '{heading}' not found, skipping", file=sys.stderr)
