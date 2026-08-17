@@ -170,9 +170,11 @@ followers  : 3   following : 11   repos : 176
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=anonymous99-Rise&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
-<img src="https://github-readme-stats.vercel.app/api?username=anonymous99-Rise&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anonymous99-Rise&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+![followers](https://img.shields.io/github/followers/anonymous99-Rise?style=for-the-badge&logo=github&color=8A2BE2)
+![following](https://img.shields.io/github/following/anonymous99-Rise?style=for-the-badge&logo=github&color=FF6B35)
+![stars](https://img.shields.io/github/stars/anonymous99-Rise?style=for-the-badge&logo=github&color=DC143C)
+![commits](https://img.shields.io/github/commits/anonymous99-Rise?style=for-the-badge&logo=github&color=3178C6)
+![issues](https://img.shields.io/github/issues/anonymous99-Rise?style=for-the-badge&logo=github&color=4CAF50)
 
 </div>
 
