@@ -14,11 +14,9 @@
 
 <sub>building agents that hunt · shipping tools for defenders · learning in public</sub>
 
-<p>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=800&color=D93B3B&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Python+%E2%9A%A1+AI+Agents+%F0%9F%A4%96;Threat+Intel+%F0%9F%9B%A1%EF%B8%8F+CVE+Hunter+%F0%9F%94%A5;Full-stack+%F0%9F%9A%80+Rising+daily+%F0%9F%91%8F;%E6%B5%B4%E7%81%AB%E9%87%8D%E7%94%9F+%F0%9F%8E%AF+%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B" alt="Typing SVG" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=800&color=D93B3B&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Python+%E2%9A%A1+AI+Agents+%F0%9F%A4%96;Threat+Intel+%F0%9F%9B%A1%EF%B8%8F+CVE+Hunter+%F0%9F%94%A5;Full-stack+%F0%9F%9A%80+Rising+daily+%F0%9F%91%8F;%E6%B5%B4%E7%81%AB%E9%87%8D%E7%94%9F+%F0%9F%8E%AF+%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B" alt="Typing SVG" />
 
-<img src="https://komarev.com/ghpvc/?username=anonymous99-Rise&style=for-the-badge&color=8A2BE2&label=PROFILE+VIEWS" alt="profile views" />
+![profile views](https://komarev.com/ghpvc/?username=anonymous99-Rise&style=for-the-badge&color=8A2BE2)
 
 </div>
 
@@ -27,11 +25,9 @@
 ## ◢ identity
 
 ```yaml
-handle     : anonymous99-Rise
-bio        : 浴火重生！从零开始！
-motto      : ship the agent you'd trust at 3am
-home_tz    : flexible // UTC synced
-followers  : 3   following : 11   repos : 176
+handle : anonymous99-Rise
+bio   : 浴火重生！从零开始！
+motto : ship the agent you'd trust at 3am
 ```
 
 <div align="center">
@@ -55,7 +51,7 @@ followers  : 3   following : 11   repos : 176
 
 ## ◢ priority_targets
 
-> my pinned repos — what i actually ship
+> top repos by stars — what i actually ship
 
 <!-- DYNAMIC:START -->
 | | repo | what it does | lang |
@@ -65,31 +61,21 @@ followers  : 3   following : 11   repos : 176
 
 ---
 
-## ◢ arsenal
+## ◢ live_pulse
 
-### ▸ ai agents & llm tooling
-- 🧠 **[oh-my-hermes-memory](https://github.com/anonymous99-Rise/oh-my-hermes-memory)** — 双层 memory 架构(L1 索引 / L0 OMH 项目存储 / .env 凭据),review-first 捕获流,AI agent 持久化记忆的事实标准 ⭐1
-- 🎯 **[AI-Account-Toolkit](https://github.com/anonymous99-Rise/AI-Account-Toolkit)** — AI 账号注册 & Token 管理工具集,覆盖主流平台
-- 📰 **[ai-daily-newsletter](https://github.com/anonymous99-Rise/ai-daily-newsletter)** — 聚合 25+ AI 信息源,每日生成 AI 新闻简报
-- 🧘 **[ai-mentor-xiaoxi](https://github.com/anonymous99-Rise/ai-mentor-xiaoxi)** — 小溪的 AI 进化方法论 · 帮助 AI 建立自我
+<!-- DYNAMIC:START -->
+<div align="center">
 
-### ▸ threat intel & cve hunting
-- 🔥 **[cve_monitor](https://github.com/anonymous99-Rise/cve_monitor)** — 自研实时 CVE 监控 + 推送
-- 🛰️ **[github-cve-monitor](https://github.com/anonymous99-Rise/github-cve-monitor)** — fork · GitHub 维度 CVE / 工具监控
-- 🛰️ **[github_monitor](https://github.com/anonymous99-Rise/github_monitor)** — fork · 多维监控 + 大佬仓库追踪
-- 🧲 **[ioc-harvest](https://github.com/anonymous99-Rise/ioc-harvest)** — scraper/parser for public TI feeds
-- 🧭 **[geoip-attackmap](https://github.com/anonymous99-Rise/geoip-attackmap)** — lightweight attack-map renderer
-- 🪪 **[cve-feed](https://github.com/anonymous99-Rise/cve-feed)** — curated CVE/KEV mirror with EPSS scoring
+![followers](https://img.shields.io/github/followers/anonymous99-Rise?style=for-the-badge&logo=github&color=8A2BE2)
+![following](https://img.shields.io/github/following/anonymous99-Rise?style=for-the-badge&logo=github&color=FF6B35)
+![repos](https://img.shields.io/github/repos/anonymous99-Rise?style=for-the-badge&logo=github&color=3178C6)
+![stars](https://img.shields.io/github/stars/anonymous99-Rise?style=for-the-badge&logo=github&color=DC143C)
+![cve_24h](https://img.shields.io/badge/CVE_24h-111-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-### ▸ offensive sec & exploitation
-- 🛰️ **[poc-Collector](https://github.com/anonymous99-Rise/poc-Collector)** — poc/exp 收集 & 推送
-- 🕸️ **[DarkWeb-Forums-Tracker](https://github.com/anonymous99-Rise/DarkWeb-Forums-Tracker)** — 暗网论坛监控
-- 🐚 **[revsh-go](https://github.com/anonymous99-Rise/revsh-go)** — tiny tls-encrypted reverse shell (for CTFs)
-- 🔎 **[bounty-helper](https://github.com/anonymous99-Rise/bounty-helper)** — recon automation wrapper
-- 🪤 **[canary-svc](https://github.com/anonymous99-Rise/canary-svc)** — high-interaction canary service for blue teams
+<sub>🤖 auto-refreshed by `profile-pulse.yml` · last pulse `2026-08-17 01:54 UTC` · [history](commits/main/.github/workflows/profile-pulse.yml)</sub>
 
-### ▸ web & writing
-- 🌊 **[xiaoxi-blog](https://github.com/anonymous99-Rise/xiaoxi-blog)** — 个人博客 · 成为更好的小溪而努力~
+</div>
+<!-- DYNAMIC:END -->
 
 ---
 
@@ -98,9 +84,9 @@ followers  : 3   following : 11   repos : 176
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── anonymous99-Rise (—, pushed 2026-08-17) — personal profile · anonymous99-Rise
-    ├── AI-Account-Toolkit (Python, pushed 2026-08-17) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    └── multi-agent-tasks (TypeScript, pushed 2026-08-15) — Multi-Agent Task Collaboration System based on GitHub Issues
+    ├── anonymous99-Rise (profile, pushed 2026-08-17)
+    ├── AI-Account-Toolkit (Python, pushed 2026-08-17)
+    └── multi-agent-tasks (TypeScript, pushed 2026-08-15)
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -111,48 +97,74 @@ followers  : 3   following : 11   repos : 176
 
 ---
 
-## ◢ live_pulse
-
-<!-- DYNAMIC:START -->
-<div align="center">
-
-![followers](https://img.shields.io/badge/followers-13-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-26-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-184-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-41-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-111-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
-
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-08-17 02:38 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
-
-</div>
-<!-- DYNAMIC:END -->
-
----
-
+(readme: polish layout, fix priority_targets filter, clean up styling)
 ## ◢ feed
 
 <!-- DYNAMIC:START -->
 #### ▸ Sploitus (exploits & CVEs)
 
-- <code>2026-08-16</code> · [Exploit for CVE-2026-18366](https://sploitus.com/exploit?id=0D05FDA5-2D32-5BF2-B5F3-D39DFE729B14&utm_source=rss&utm_medium=rss)
-- <code>2026-08-16</code> · [BlackPearl-CTF-Exploitation](https://sploitus.com/exploit?id=0D8248FB-0941-5922-9979-49DFD99582FD&utm_source=rss&utm_medium=rss)
-- <code>2026-08-16</code> · [Root-My-Galaxy-Payloads exploit](https://sploitus.com/exploit?id=6ADC15B9-71F5-54D7-ABAF-259DCF8C1B3D&utm_source=rss&utm_medium=rss)
-- <code>2026-08-16</code> · [Exploit for CVE-2026-8508](https://sploitus.com/exploit?id=33D18165-2055-57DB-8186-A2F92B5C5BB5&utm_source=rss&utm_medium=rss)
-- <code>2026-08-16</code> · [Exploit for CVE-2026-6837](https://sploitus.com/exploit?id=D8F7FACB-F5F9-558A-A08D-F0A42337381F&utm_source=rss&utm_medium=rss)
+- `2026-08-16` · [Exploit for CVE-2026-18366](https://sploitus.com/exploit?id=0D05FDA5-2D32-5BF2-B5F3-D39DFE729B14&utm_source=rss&utm_medium=rss)
+- `2026-08-16` · [BlackPearl-CTF-Exploitation](https://sploitus.com/exploit?id=0D8248FB-0941-5922-9979-49DFD99582FD&utm_source=rss&utm_medium=rss)
+- `2026-08-16` · [Root-My-Galaxy-Payloads exploit](https://sploitus.com/exploit?id=6ADC15B9-71F5-54D7-ABAF-259DCF8C1B3D&utm_source=rss&utm_medium=rss)
+- `2026-08-16` · [Exploit for CVE-2026-8508](https://sploitus.com/exploit?id=33D18165-2055-57DB-8186-A2F92B5C5BB5&utm_source=rss&utm_medium=rss)
+- `2026-08-16` · [Exploit for CVE-2026-6837](https://sploitus.com/exploit?id=D8F7FACB-F5F9-558A-A08D-F0A42337381F&utm_source=rss&utm_medium=rss)
 
 #### ▸ [steipete](https://steipete.me/rss.xml)
 
-- <code>2026-02-15</code> · [OpenClaw, OpenAI and the future](https://steipete.me/posts/2026/openclaw/)
-- <code>2025-12-28</code> · [Shipping at Inference-Speed](https://steipete.me/posts/2025/shipping-at-inference-speed/)
-- <code>2025-12-18</code> · [The Signature Flicker](https://steipete.me/posts/2025/signature-flicker/)
+- `2026-02-15` · [OpenClaw, OpenAI and the future](https://steipete.me/posts/2026/openclaw/)
+- `2025-12-28` · [Shipping at Inference-Speed](https://steipete.me/posts/2025/shipping-at-inference-speed/)
+- `2025-12-18` · [The Signature Flicker](https://steipete.me/posts/2025/signature-flicker/)
 
 #### ▸ [cryptoeng](https://blog.cryptographyengineering.com/feed/)
 
-- <code>2026-08-14</code> · [Everything is about to “go dark”](https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/)
-- <code>2026-07-29</code> · [Some thoughts about Anthropic’s new cryptanalysis results](https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/)
-- <code>2026-06-09</code> · [The future of Siri, or: why private inference isn’t private enough](https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/)
+- `2026-08-14` · [Everything is about to "go dark"](https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/)
+- `2026-07-29` · [Some notes about Anthropic's new cryptanalysis results](https://blog.cryptographyengineering.com/2026-07/29/some-notes-about-anthropics-new-results/)
+- `2026-06-09` · [The future of Siri, or: why private inference isn't private enough](https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/)
 
 #### ▸ [trailofbits](https://blog.trailofbits.com/feed/)
 
-- <code>2026-08-11</code> · [How Trail of Bits helps verify the integrity of your Signal chats](https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/)
-- <code>2026-08-05</code> · [A few notes on AWS Nitro Enclaves: KMS integration](https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/)
-- <code>2026-07-30</code> · [Building secure Uniswap v4 hooks](https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/)
+- `2026-08-11` · [How Trail of Bits helps verify the integrity of your Signal chats](https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/)
+- `2026-08-05` · [A few notes on AWS Nitro Enclaves: KMS integration](https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/)
+- `2026-07-30` · [Building secure Uniswap v4 hooks](https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/)
+<!-- DYNAMIC:END -->
+
+---
+
+## ◢ arsenal
+
+### ▸ AI agents & tooling
+- 🧠 **[oh-my-hermes-memory](https://github.com/anonymous99-Rise/oh-my-hermes-memory)** — 双层 memory 架构(L1 索引 / L0 OMH 项目存储 / .env 凭据),review-first 捕获流,AI agent 持久化记忆的事实标准 ⭐1
+- 📰 **[ai-daily-newsletter](https://github.com/anonymous99-Rise/ai-daily-newsletter)** — 聚合 25+ AI 信息源,每日生成 AI 新闻简报
+- 🧘 **[ai-mentor-xiaoxi](https://github.com/anonymous99-Rise/ai-mentor-xiaoxi)** — 小溪的 AI 进化方法论 · 帮助 AI 建立自我
+
+### ▸ threat intel & CVE
+- 🔥 **[cve_monitor](https://github.com/anonymous99-Rise/cve_monitor)** — 自研实时 CVE 监控 + 推送
+- 🛰️ **[github-cve-monitor](https://github.com/anonymous99-Rise/github-cve-monitor)** — GitHub 维度 CVE / 工具监控
+- 🛰️ **[github_monitor](https://github.com/anonymous99-Rise/github_monitor)** — 多维监控 + 大佬仓库追踪
+- 🪪 **[cve-feed](https://github.com/anonymous99-Rise/cve-feed)** — CVE/KEV mirror with EPSS scoring
+
+### ▸ offensive sec
+- 🔎 **[bounty-helper](https://github.com/anonymous99-Rise/bounty-helper)** — recon automation wrapper
+- 🪤 **[canary-svc](https://github.com/anonymous99-Rise/canary-svc)** — high-interaction canary service for blue teams
+- 🐚 **[revsh-go](https://github.com/anonymous99-Rise/revsh-go)** — tiny tls-encrypted reverse shell (for CTFs)
+
+### ▸ web & writing
+- 🌊 **[xiaoxi-blog](https://github.com/anonymous99-Rise/xiaoxi-blog)** — 个人博客 · 成为更好的小溪而努力~
+
+---
+
+## ◢ signal
+
+<!-- DYNAMIC:START -->
+<div align="center">
+
+![followers](https://img.shields.io/github/followers/anonymous99-Rise?style=for-the-badge&logo=github&color=8A2BE2)
+![following](https://img.shields.io/github/following/anonymous99-Rise?style=for-the-badge&logo=github&color=FF6B35)
+![repos](https://img.shields.io/github/repos/anonymous99-Rise?style=for-the-badge&logo=github&color=3178C6)
+![stars](https://img.shields.io/github/stars/anonymous99-Rise?style=for-the-badge&logo=github&color=DC143C)
+![cve_24h](https://img.shields.io/badge/CVE_24h-111-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+
+</div>
 <!-- DYNAMIC:END -->
 
 ---
@@ -160,28 +172,14 @@ followers  : 3   following : 11   repos : 176
 ## ◢ wakatime
 
 <!-- DYNAMIC:START -->
-<sub align="center">⏳ no wakatime data in last 7 days (2026-08-10 → 2026-08-17, tz=Asia/Shanghai)</sub>
-<!-- DYNAMIC:END -->
-
----
-
-
-## ◢ signal
-<!-- DYNAMIC:START -->
-
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="110" viewBox="0 0 820 110" style="background-color:#1a1b26;border:1px solid #15161e;border-radius:10px;font-family:Consolas,monospace;display:inline-block;"><text x="82" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#9d7cd8">13</text><text x="82" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">followers</text><text x="246" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#7aa2f7">26</text><text x="246" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">following</text><text x="410" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#7dcfff">184</text><text x="410" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">repos</text><text x="574" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#bb9af7">41</text><text x="574" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">stars</text><text x="738" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#9ece6a">0</text><text x="738" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">commits</text><line x1="164" y1="10" x2="164" y2="110" stroke="#1a1b26" stroke-width="1"/><line x1="328" y1="10" x2="328" y2="110" stroke="#1a1b26" stroke-width="1"/><line x1="492" y1="10" x2="492" y2="110" stroke="#1a1b26" stroke-width="1"/><line x1="656" y1="10" x2="656" y2="110" stroke="#1a1b26" stroke-width="1"/></svg>
-
+(readme: polish layout, fix priority_targets filter, clean up styling)
 <!-- DYNAMIC:END -->
 
 ---
 
 ## ◢ philosophy
 
-> *“ship the agent that you would trust to defend your own infra at 3am.”*
->
-> i build AI agents the way i'd build any other critical tool: red-team them first,
-> instrument everything, assume the prompt is hostile, and never trust a single
-> reasoning trace. python-first, because readability is a security feature.
+> *"ship the agent that you would trust to defend your own infra at 3am."*
 
 <details>
 <summary>◢ manifest</summary>
@@ -194,7 +192,7 @@ followers  : 3   following : 11   repos : 176
 </details>
 
 <details>
-<summary>◢ ttps (the fun version)</summary>
+<summary>◢ ttps</summary>
 
 - treat prompts like untrusted input — they are
 - prefer boring infra (postgres, redis, sqlite) over magical stacks
@@ -211,8 +209,7 @@ followers  : 3   following : 11   repos : 176
 
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/VqjIX47lUK5jgwk)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anonymous99-Rise)
-<!-- add more as you grow: blog, mastodon, bluesky, linkedin -->
 
 </div>
 
-<sub align="center">⚡ this profile is a living doc · last refreshed when the last agent run completed cleanly</sub>
+<sub>⚡ this profile is a living doc · auto-refreshed by `profile-pulse.yml`</sub>

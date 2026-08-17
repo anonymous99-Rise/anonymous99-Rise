@@ -334,7 +334,7 @@ def build_operations() -> str:
         desc = (repo.get("description") or "").strip().split("\n")[0]
         if len(desc) > 60:
             desc = desc[:57] + "…"
-        lang = repo.get("language") or "—"
+        lang = repo.get("language") or "?"
         lines.append(f"    {connector} {name} ({lang}, pushed {pushed}) — {desc or 'no description'}")
     lines.append("")
     return "```text\n" + "\n".join(lines) + "\n" + learning + "\n```"
@@ -379,13 +379,18 @@ def build_priority_targets() -> str:
     r = gh_get(f"/users/{GH_USER}/repos", {
         "sort": "stargazers",
         "direction": "desc",
-        "per_page": 6,
+        "per_page": 20,
         "type": "owner",
     })
     if r is None:
         return _fallback_block("priority_targets", "gh api unavailable")
 
-    repos = [repo for repo in r.json() if not repo.get("archived") and not repo.get("fork")]
+    # fork field returned by GitHub API can be the string "false" or absent, not just True/False
+    repos = [
+        repo for repo in r.json()
+        if not repo.get("archived")
+        and str(repo.get("fork", "")).lower() != "true"
+    ]
     if not repos:
         return _fallback_block("priority_targets", "no repos found")
 
@@ -438,7 +443,7 @@ def build_feed() -> str:
             title = item["title"]
             if len(title) > 70:
                 title = title[:67] + "…"
-            rows.append(f"- <code>{item['updated']}</code> · [{title}]({item['link']})")
+            rows.append(f"- `{item['updated']}` · [{title}]({item['link']})")
 
         if feed_type == "sploitus":
             sections.append(f"#### ▸ Sploitus (exploits & CVEs)\n\n" + "\n".join(rows))
