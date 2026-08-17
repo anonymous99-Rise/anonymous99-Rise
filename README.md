@@ -101,9 +101,9 @@ followers  : 3   following : 11   repos : 176
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── get_subscribe (Python, pushed 2026-07-31) — ✈️ 免费机场  / 免费VPN -> 自动获取免 clash/v2ray/trojan/sr/ssr 订阅链接，…
-    ├── github_monitor (HTML, pushed 2026-07-31) — 实时监控github上新增的cve、自定义关键词、安全工具更新、大佬仓库监控，并多渠道推送通知
-    └── CVE (Python, pushed 2026-07-31) — no description
+    ├── anonymous99-Rise (—, pushed 2026-08-17) — personal profile · anonymous99-Rise
+    ├── AI-Account-Toolkit (Python, pushed 2026-08-17) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    └── multi-agent-tasks (TypeScript, pushed 2026-08-15) — Multi-Agent Task Collaboration System based on GitHub Issues
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -119,9 +119,9 @@ followers  : 3   following : 11   repos : 176
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-3-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-14-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-179-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-18-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-297-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-13-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-25-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-184-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-41-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-111-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-07-31 02:06 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-08-17 01:35 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -131,17 +131,31 @@ followers  : 3   following : 11   repos : 176
 ## ◢ feed
 
 <!-- DYNAMIC:START -->
-#### ▸ [`cve_monitor`](https://github.com/anonymous99-Rise/cve_monitor)
+#### ▸ Sploitus (exploits & CVEs)
 
-- <code>2026-07-28</code> · [nice-select2 跨站脚本漏洞](https://www.oscs1024.com/hd/MPS-82sz-fqpl)
-- <code>2026-07-28</code> · [zip-lib 任意文件写入漏洞](https://www.oscs1024.com/hd/MPS-1mld-rcx7)
-- <code>2026-07-28</code> · [WordPress Ad Invalid Click Protector 插件未授权访问控制漏洞](https://www.oscs1024.com/hd/MPS-ryv3-i0ea)
+- <code>2026-08-16</code> · [Exploit for CVE-2026-18366](https://sploitus.com/exploit?id=0D05FDA5-2D32-5BF2-B5F3-D39DFE729B14&utm_source=rss&utm_medium=rss)
+- <code>2026-08-16</code> · [BlackPearl-CTF-Exploitation](https://sploitus.com/exploit?id=0D8248FB-0941-5922-9979-49DFD99582FD&utm_source=rss&utm_medium=rss)
+- <code>2026-08-16</code> · [Root-My-Galaxy-Payloads exploit](https://sploitus.com/exploit?id=6ADC15B9-71F5-54D7-ABAF-259DCF8C1B3D&utm_source=rss&utm_medium=rss)
+- <code>2026-08-16</code> · [Exploit for CVE-2026-8508](https://sploitus.com/exploit?id=33D18165-2055-57DB-8186-A2F92B5C5BB5&utm_source=rss&utm_medium=rss)
+- <code>2026-08-16</code> · [Exploit for CVE-2026-6837](https://sploitus.com/exploit?id=D8F7FACB-F5F9-558A-A08D-F0A42337381F&utm_source=rss&utm_medium=rss)
 
-#### ▸ [`ai-mentor-xiaoxi`](https://github.com/anonymous99-Rise/ai-mentor-xiaoxi)
+#### ▸ [steipete](https://steipete.me/rss.xml)
 
-- <code>2026-07-16</code> · [AI Agent 学习方法论：从被动记录到主动升级](https://anonymous99-rise.github.io//ai-mentor-xiaoxi/posts/2026-07-16-AI-Agent学习方法论：从被动记录到主动升级/)
-- <code>2026-07-15</code> · [AI Agent 记忆系统四层架构：从上下文到持久记忆](https://anonymous99-rise.github.io//ai-mentor-xiaoxi/posts/2026-07-15-AI-Agent记忆系统四层架构/)
-- <code>2026-07-14</code> · [AI Agent 协作模式深度解析：从小溪到 Multi-Agent 军团](https://anonymous99-rise.github.io//ai-mentor-xiaoxi/posts/2026-07-14-AI-Agent协作模式深度解析/)
+- <code>2026-02-15</code> · [OpenClaw, OpenAI and the future](https://steipete.me/posts/2026/openclaw/)
+- <code>2025-12-28</code> · [Shipping at Inference-Speed](https://steipete.me/posts/2025/shipping-at-inference-speed/)
+- <code>2025-12-18</code> · [The Signature Flicker](https://steipete.me/posts/2025/signature-flicker/)
+
+#### ▸ [cryptoeng](https://blog.cryptographyengineering.com/feed/)
+
+- <code>2026-08-14</code> · [Everything is about to “go dark”](https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/)
+- <code>2026-07-29</code> · [Some thoughts about Anthropic’s new cryptanalysis results](https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/)
+- <code>2026-06-09</code> · [The future of Siri, or: why private inference isn’t private enough](https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/)
+
+#### ▸ [trailofbits](https://blog.trailofbits.com/feed/)
+
+- <code>2026-08-11</code> · [How Trail of Bits helps verify the integrity of your Signal chats](https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/)
+- <code>2026-08-05</code> · [A few notes on AWS Nitro Enclaves: KMS integration](https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/)
+- <code>2026-07-30</code> · [Building secure Uniswap v4 hooks](https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/)
 <!-- DYNAMIC:END -->
 
 ---
@@ -149,15 +163,7 @@ followers  : 3   following : 11   repos : 176
 ## ◢ wakatime
 
 <!-- DYNAMIC:START -->
-**`5.0h 21.0m`** coded in last 7 days · editors: `Claude Code` (4.0h 43.0m), `VS Code` (37.0m)
-
-- `YAML        ` ██████████ 1.0h 59.0m
-- `Markdown    ` █████░░░░░ 1.0h 6.0m
-- `Astro       ` ██░░░░░░░░ 32.0m
-- `Python      ` ██░░░░░░░░ 31.0m
-- `TypeScript  ` ██░░░░░░░░ 25.0m
-
-<sub>range: 2026-07-24 → 2026-07-31 · tz: Asia/Shanghai · source: wakatime API</sub>
+<sub align="center">⏳ no wakatime data in last 7 days (2026-08-10 → 2026-08-17, tz=Asia/Shanghai)</sub>
 <!-- DYNAMIC:END -->
 
 ---
