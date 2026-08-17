@@ -57,6 +57,10 @@ motto : ship the agent you'd trust at 3am
 | | repo | what it does | lang |
 |---|---|---|---|
 | 🎯 | **[github-migration-tool](https://github.com/anonymous99-Rise/github-migration-tool)** | GitHub迁移工具：分批迁移+风控延迟 | `Python` ⭐1 |
+| 🛰️ | **[anonymous99-Rise](https://github.com/anonymous99-Rise/anonymous99-Rise)** | personal profile · anonymous99-Rise | `—` ⭐1 |
+| 🔥 | **[oh-my-hermes-memory](https://github.com/anonymous99-Rise/oh-my-hermes-memory)** | Complete dual-store memory architecture for Hermes + OMH: tiered st… | `Python` ⭐2 |
+| 🕸️ | **[ERS-Emergency-Response-Script](https://github.com/anonymous99-Rise/ERS-Emergency-Response-Script)** | no description | `—` ⭐0 |
+| 📡 | **[Gemini-3-pro-Antigravity](https://github.com/anonymous99-Rise/Gemini-3-pro-Antigravity)** | 欢迎访问L站了解更多（佬写得很棒~） | `—` ⭐0 |
 <!-- DYNAMIC:END -->
 
 ---
@@ -66,13 +70,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/github/followers/anonymous99-Rise?style=for-the-badge&logo=github&color=8A2BE2)
-![following](https://img.shields.io/github/following/anonymous99-Rise?style=for-the-badge&logo=github&color=FF6B35)
-![repos](https://img.shields.io/github/repos/anonymous99-Rise?style=for-the-badge&logo=github&color=3178C6)
-![stars](https://img.shields.io/github/stars/anonymous99-Rise?style=for-the-badge&logo=github&color=DC143C)
-![cve_24h](https://img.shields.io/badge/CVE_24h-111-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-13-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-26-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-184-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-41-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-111-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by `profile-pulse.yml` · last pulse `2026-08-17 01:54 UTC` · [history](commits/main/.github/workflows/profile-pulse.yml)</sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-08-17 02:44 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -84,9 +84,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── anonymous99-Rise (profile, pushed 2026-08-17)
-    ├── AI-Account-Toolkit (Python, pushed 2026-08-17)
-    └── multi-agent-tasks (TypeScript, pushed 2026-08-15)
+    ├── anonymous99-Rise (?, pushed 2026-08-17) — personal profile · anonymous99-Rise
+    ├── AI-Account-Toolkit (Python, pushed 2026-08-17) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    └── multi-agent-tasks (TypeScript, pushed 2026-08-15) — Multi-Agent Task Collaboration System based on GitHub Issues
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -117,9 +117,9 @@ motto : ship the agent you'd trust at 3am
 
 #### ▸ [cryptoeng](https://blog.cryptographyengineering.com/feed/)
 
-- `2026-08-14` · [Everything is about to "go dark"](https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/)
-- `2026-07-29` · [Some notes about Anthropic's new cryptanalysis results](https://blog.cryptographyengineering.com/2026-07/29/some-notes-about-anthropics-new-results/)
-- `2026-06-09` · [The future of Siri, or: why private inference isn't private enough](https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/)
+- `2026-08-14` · [Everything is about to “go dark”](https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/)
+- `2026-07-29` · [Some thoughts about Anthropic’s new cryptanalysis results](https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/)
+- `2026-06-09` · [The future of Siri, or: why private inference isn’t private enough](https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/)
 
 #### ▸ [trailofbits](https://blog.trailofbits.com/feed/)
 
@@ -156,15 +156,9 @@ motto : ship the agent you'd trust at 3am
 ## ◢ signal
 
 <!-- DYNAMIC:START -->
-<div align="center">
 
-![followers](https://img.shields.io/github/followers/anonymous99-Rise?style=for-the-badge&logo=github&color=8A2BE2)
-![following](https://img.shields.io/github/following/anonymous99-Rise?style=for-the-badge&logo=github&color=FF6B35)
-![repos](https://img.shields.io/github/repos/anonymous99-Rise?style=for-the-badge&logo=github&color=3178C6)
-![stars](https://img.shields.io/github/stars/anonymous99-Rise?style=for-the-badge&logo=github&color=DC143C)
-![cve_24h](https://img.shields.io/badge/CVE_24h-111-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="110" viewBox="0 0 820 110" style="background-color:#1a1b26;border:1px solid #15161e;border-radius:10px;font-family:Consolas,monospace;display:inline-block;"><text x="82" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#9d7cd8">13</text><text x="82" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">followers</text><text x="246" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#7aa2f7">26</text><text x="246" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">following</text><text x="410" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#7dcfff">184</text><text x="410" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">repos</text><text x="574" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#bb9af7">41</text><text x="574" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">stars</text><text x="738" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#9ece6a">0</text><text x="738" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">commits</text><line x1="164" y1="10" x2="164" y2="110" stroke="#1a1b26" stroke-width="1"/><line x1="328" y1="10" x2="328" y2="110" stroke="#1a1b26" stroke-width="1"/><line x1="492" y1="10" x2="492" y2="110" stroke="#1a1b26" stroke-width="1"/><line x1="656" y1="10" x2="656" y2="110" stroke="#1a1b26" stroke-width="1"/></svg>
 
-</div>
 <!-- DYNAMIC:END -->
 
 ---
@@ -172,7 +166,7 @@ motto : ship the agent you'd trust at 3am
 ## ◢ wakatime
 
 <!-- DYNAMIC:START -->
-(readme: polish layout, fix priority_targets filter, clean up styling)
+<sub align="center">⏳ no wakatime data in last 7 days (2026-08-10 → 2026-08-17, tz=Asia/Shanghai)</sub>
 <!-- DYNAMIC:END -->
 
 ---
