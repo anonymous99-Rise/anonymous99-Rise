@@ -7,9 +7,12 @@ GitHub Action bot that injects fresh data into README.md between
 
 Sections generated:
   1. operations / recent focus  — last 3 repos with recent commits
-  2. live_pulse                 — stars / followers / public_repos delta
-                                  + last 24h CVE count from NVD
-  3. feed                       — Sploitus CVEs, LinuxDo, Reddit netsec/cybersecurity
+  2. priority_targets          — top 6 repos by stars (table)
+  3. live_pulse               — stars / followers / public_repos delta
+                                 + last 24h CVE count from NVD
+  4. signal                   — self-contained SVG card (followers/following/repos/stars/commits)
+  5. feed                     — Sploitus + RSS feeds (steipete, cryptoeng, trailofbits)
+  6. wakatime                 — last 7 days coding stats
 
 Designed to be:
   - idempotent (re-running on a stale README produces same output)
@@ -456,6 +459,108 @@ def build_feed() -> str:
     return "\n\n".join(sections)
 
 
+def _make_signal_svg(
+    followers: int, following: int, public_repos: int,
+    total_stars: int, total_commits: int,
+) -> str:
+    """
+    Generate a compact inline SVG stats card — tokyonight dark theme.
+    No external dependencies; renders from GitHub API data.
+    """
+    BG = "#1a1b26"
+    BORDER = "#15161e"
+    ACCENT_PURPLE = "#9d7cd8"
+    ACCENT_BLUE = "#7aa2f7"
+    ACCENT_CYAN = "#7dcfff"
+    ACCENT_MAGENTA = "#bb9af7"
+    ACCENT_GREEN = "#9ece6a"
+
+    STATS = [
+        ("followers", followers, ACCENT_PURPLE),
+        ("following", following, ACCENT_BLUE),
+        ("repos", public_repos, ACCENT_CYAN),
+        ("stars", total_stars, ACCENT_MAGENTA),
+        ("commits", total_commits, ACCENT_GREEN),
+    ]
+
+    W = 820
+    H = 110
+    CELL = W // len(STATS)
+
+    cells: list[str] = []
+    for i, (label, value, color) in enumerate(STATS):
+        x = i * CELL
+        cx = x + CELL // 2
+        val_str = f"{value:,}" if value >= 1000 else str(value)
+        cells.append(
+            f'<text x="{cx}" y="46" text-anchor="middle"'
+            f' font-family="Consolas,monospace" font-size="24" font-weight="bold"'
+            f' fill="{color}">{val_str}</text>'
+            f'<text x="{cx}" y="68" text-anchor="middle"'
+            f' font-family="Consolas,monospace" font-size="11"'
+            f' fill="#565f89">{label}</text>'
+        )
+
+    # divider lines between cells
+    for i in range(1, len(STATS)):
+        x = i * CELL
+        cells.append(
+            f'<line x1="{x}" y1="10" x2="{x}" y2="{H}"'
+            f' stroke="#1a1b26" stroke-width="1"/>'
+        )
+
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}"'
+        f' viewBox="0 0 {W} {H}"'
+        f' style="background-color:{BG};border:1px solid {BORDER};border-radius:10px;'
+        f'font-family:Consolas,monospace;display:inline-block;">'
+        + "".join(cells)
+        + "</svg>"
+    )
+
+
+def build_signal() -> str:
+    """
+    Fetch user stats from GitHub API and render as a self-contained SVG card.
+    No third-party services required — everything generated locally.
+    """
+    print("→ fetching signal stats…")
+    r = gh_get(f"/users/{GH_USER}")
+    if r is None:
+        return _fallback_block("signal", "gh api unavailable")
+
+    u = r.json()
+    followers = u.get("followers", 0)
+    following = u.get("following", 0)
+    public_repos = u.get("public_repos", 0)
+
+    total_stars = gh_paginate_total_stars() or 0
+
+    # total commits: sum of all repo commit counts via events API (paginated)
+    total_commits = 0
+    for event_type in ("PushEvent",):
+        page = 1
+        while page <= 5:
+            er = gh_get(f"/users/{GH_USER}/events", {"per_page": 100, "page": page})
+            if er is None:
+                break
+            events = er.json()
+            if not events:
+                break
+            for ev in events:
+                if ev.get("type") == event_type:
+                    payload = ev.get("payload", {})
+                    total_commits += len(payload.get("commits", []))
+            if len(events) < 100:
+                break
+            page += 1
+            time.sleep(0.3)
+
+    svg = _make_signal_svg(followers, following, public_repos, total_stars, total_commits)
+    # escape for markdown HTML block
+    return f"\n{svg}\n"
+
+
 def build_wakatime() -> str:
     """Render last-7-days coding stats. Graceful when token absent or new account."""
     print("→ fetching wakatime summary…")
@@ -553,6 +658,8 @@ def main() -> int:
     time.sleep(0.5)  # be polite to GitHub API
     text = inject(text, "priority_targets", build_priority_targets())
     text = inject(text, "live_pulse", build_pulse())
+    time.sleep(0.5)  # gh_paginate_total_stars() is called again in build_signal
+    text = inject(text, "signal", build_signal())
     text = inject(text, "feed", build_feed())
     text = inject(text, "wakatime", build_wakatime())
 

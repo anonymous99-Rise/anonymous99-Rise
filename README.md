@@ -167,6 +167,7 @@ followers  : 3   following : 11   repos : 176
 
 
 ## ◢ signal
+<!-- DYNAMIC:START -->
 
 <div align="center">
 
@@ -177,6 +178,7 @@ followers  : 3   following : 11   repos : 176
 ![issues](https://img.shields.io/github/issues/anonymous99-Rise?style=for-the-badge&logo=github&color=4CAF50)
 
 </div>
+<!-- DYNAMIC:END -->
 
 ---
 
