@@ -60,12 +60,7 @@ followers  : 3   following : 11   repos : 176
 <!-- DYNAMIC:START -->
 | | repo | what it does | lang |
 |---|---|---|---|
-| 🎯 | **[AI-Account-Toolkit](https://github.com/anonymous99-Rise/AI-Account-Toolkit)** | 浴火重生 · AI 账号注册与管理一站式工具集 — ChatGPT / Claude / Gemini / Codex / Cursor / Grok 批量注册、Token 管理、临时邮箱 | `Python` ⭐8 |
-| 🛰️ | **[poc-Collector](https://github.com/anonymous99-Rise/poc-Collector)** | poc/exp 收集 & 多渠道推送 | `Python` ⭐1 |
-| 🔥 | **[cve_monitor](https://github.com/anonymous99-Rise/cve_monitor)** | 实时监控新增 CVE,自定义关键字 + 安全工具更新,多渠道推送 | `Python` |
-| 🕸️ | **[DarkWeb-Forums-Tracker](https://github.com/anonymous99-Rise/DarkWeb-Forums-Tracker)** | 暗网论坛/帖子追踪器 | `HTML` |
-| 📡 | **[github-cve-monitor](https://github.com/anonymous99-Rise/github-cve-monitor)** | fork · 监控 GitHub 上新增 CVE / 自定义关键字 / 安全工具,多渠道推送 | `Python` |
-| 🛰️ | **[github_monitor](https://github.com/anonymous99-Rise/github_monitor)** | fork · CVE / 关键词 / 安全工具 / 大佬仓库全维度监控,多渠道推送 | `HTML` |
+| 🎯 | **[github-migration-tool](https://github.com/anonymous99-Rise/github-migration-tool)** | GitHub迁移工具：分批迁移+风控延迟 | `Python` ⭐1 |
 <!-- DYNAMIC:END -->
 
 ---
@@ -123,7 +118,7 @@ followers  : 3   following : 11   repos : 176
 
 ![followers](https://img.shields.io/badge/followers-13-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-25-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-184-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-41-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-111-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-08-17 01:35 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-08-17 01:38 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
