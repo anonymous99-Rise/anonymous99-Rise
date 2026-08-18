@@ -9,6 +9,11 @@
 /_/   \_\__|_| \_|_| \_|/_/   \_\_| |_|\___/|_|   |_____\___/|____/
 ```
 
+
+<p align="center">
+  <img width="800" src="anonymous99-Rise-banner.gif" />
+</p>
+
 # 🎯 浴火重生 | Rise from the Ashes
 
 **`// threat_intel_operator` · `// ai_agent_forge` · `// python_native`**
