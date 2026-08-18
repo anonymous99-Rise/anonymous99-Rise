@@ -1,7 +1,5 @@
 <div align="center">
 
-[![anonymous99-Rise's GitHub stats](https://github-immortality.vercel.app/api?username=anonymous99-Rise)](https://github.com/anonymous99-Rise)
-
 
 ```text
     _   _   _   _   _   _     _   _   _   _   _     _     ___  ____
@@ -18,6 +16,8 @@
 <sub>building agents that hunt · shipping tools for defenders · learning in public</sub>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=800&color=D93B3B&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Python+%E2%9A%A1+AI+Agents+%F0%9F%A4%96;Threat+Intel+%F0%9F%9B%A1%EF%B8%8F+CVE+Hunter+%F0%9F%94%A5;Full-stack+%F0%9F%9A%80+Rising+daily+%F0%9F%91%8F;%E6%B5%B4%E7%81%AB%E9%87%8D%E7%94%9F+%F0%9F%8E%AF+%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B" alt="Typing SVG" />
+
+[![anonymous99-Rise's GitHub stats](https://github-immortality.vercel.app/api?username=anonymous99-Rise)](https://github.com/anonymous99-Rise)
 
 ![metrics](/github-metrics.svg)
 
