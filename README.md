@@ -1,8 +1,6 @@
 <div align="center">
 
-<p align="center">
-  <img width="1000" src="[anonymous99-Rise](https://github-immortality.vercel.app/api?username=anonymous99-Rise)" />
-</p>
+[![anonymous99-Rise's GitHub stats](https://github-immortality.vercel.app/api?username=anonymous99-Rise)](https://github.com/anonymous99-Rise)
 
 
 ```text
