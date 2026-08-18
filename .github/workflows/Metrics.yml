@@ -31,7 +31,7 @@ jobs:
           
           plugin_lines: yes
           
-          plugin_stargazers: yes
+          plugin_stargazers: no
           plugin_stargazers_charts_type: chartist
 
           plugin_habits: yes
@@ -48,4 +48,4 @@ jobs:
           plugin_wakatime_repositories_visibility: all
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_url: https://wakatime.com
-          plugin_wakatime_user: anonymous99-Rise
+          plugin_wakatime_user: 17da0304-3e79-47d9-86e2-4f8535b3d4f8
