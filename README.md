@@ -79,9 +79,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-14-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-30-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-186-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-44-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-1424-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-14-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-30-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-186-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-44-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-1429-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-08-19 00:36 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-08-19 04:27 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -93,7 +93,7 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── anonymous99-Rise (?, pushed 2026-08-18) — personal profile · anonymous99-Rise
+    ├── anonymous99-Rise (?, pushed 2026-08-19) — personal profile · anonymous99-Rise
     ├── AI-Account-Toolkit (Python, pushed 2026-08-17) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
     └── multi-agent-tasks (TypeScript, pushed 2026-08-15) — Multi-Agent Task Collaboration System based on GitHub Issues
 
@@ -112,11 +112,11 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 #### ▸ Sploitus (exploits & CVEs)
 
-- `2026-08-18` · [kill-chain-vulnerability-scanner exploit](https://sploitus.com/exploit?id=495259AA-45B4-55E9-9BBC-F811E79CB6A1&utm_source=rss&utm_medium=rss)
-- `2026-08-18` · [Exploit for Missing Authorization in Portainer](https://sploitus.com/exploit?id=109DCEB3-DE61-5471-8DDB-A813D9ABF3FE&utm_source=rss&utm_medium=rss)
-- `2026-08-18` · [Exploit for CVE-2026-64638](https://sploitus.com/exploit?id=2547ECAC-6483-5CE5-BFE9-3B9DFE644A3A&utm_source=rss&utm_medium=rss)
-- `2026-08-18` · [GL.iNet-4.x-Init-PoC exploit](https://sploitus.com/exploit?id=87189602-CA96-5B0D-9F8F-0FF1CD011128&utm_source=rss&utm_medium=rss)
-- `2026-08-18` · [Exploit for Code Injection in Anyscale Ray](https://sploitus.com/exploit?id=2F39AA0C-8F89-5B19-A6D9-692CDE14079C&utm_source=rss&utm_medium=rss)
+- `2026-08-19` · [Exploit for Use After Free in Linux Linux_Kernel](https://sploitus.com/exploit?id=9BE27B8A-EDCC-5119-9472-C00BB74D56FE&utm_source=rss&utm_medium=rss)
+- `2026-08-19` · [Exploit-Lab](https://sploitus.com/exploit?id=402280A2-DD3B-5720-9B9F-0958FF6D705D&utm_source=rss&utm_medium=rss)
+- `2026-08-19` · [Exploit for CVE-2026-19598](https://sploitus.com/exploit?id=76664995-C080-59C6-A771-147DEC084BFD&utm_source=rss&utm_medium=rss)
+- `2026-08-19` · [POC-EXP exploit](https://sploitus.com/exploit?id=F58168C3-E393-5C9B-9310-AA88B802281C&utm_source=rss&utm_medium=rss)
+- `2026-08-19` · [Exploit for CVE-2026-16732](https://sploitus.com/exploit?id=29A789E7-BD5E-59FB-A82C-183C617D7B70&utm_source=rss&utm_medium=rss)
 
 #### ▸ [steipete](https://steipete.me/rss.xml)
 
