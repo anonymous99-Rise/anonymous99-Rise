@@ -25,6 +25,7 @@ Requires env: GH_TOKEN, GH_USER
 from __future__ import annotations
 
 import base64
+import html
 import os
 import re
 import subprocess
@@ -34,6 +35,14 @@ import datetime as dt
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+
+# Fix Windows GBK console encoding — force UTF-8 output
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
 
 import requests
 
@@ -51,12 +60,17 @@ WAKATIME_API_KEY = os.environ.get("WAKATIME_API_KEY", "")
 WAKATIME_USER = os.environ.get("WAKATIME_USER", "anonymous99-Rise")
 
 # Feed config: each entry is a dict with keys:
-#   type  — "sploitus" or "rss"
+#   type  — "sploitus", "rss", or "rsshub"
 #   label — display name for the subsection header
 #   url   — RSS URL
 #   max   — max items to show
+#   desc_link_patterns — (optional) list of regex patterns to extract real links from <description> HTML
 FEEDS = [
     {"type": "sploitus", "label": "sploitus",     "url": "https://sploitus.com/rss",                       "max": 5},
+    {"type": "rsshub",   "label": "linuxdo",      "url": "https://rssmonitor.zeabur.app/telegram/channel/linuxdoit", "max": 5,
+     "desc_link_patterns": [r'href="(https://linux\.do/t/topic/\d+)"']},
+    {"type": "rsshub",   "label": "r/golang",     "url": "https://rssmonitor.zeabur.app/telegram/channel/golangredditrss", "max": 3,
+     "desc_link_patterns": [r'href="(https://www\.reddit\.com/r/golang/comments/[^"]+)"']},
     {"type": "rss",      "label": "steipete",     "url": "https://steipete.me/rss.xml",                     "max": 3},
     {"type": "rss",      "label": "cryptoeng",    "url": "https://blog.cryptographyengineering.com/feed/",  "max": 3},
     {"type": "rss",      "label": "trailofbits",  "url": "https://blog.trailofbits.com/feed/",             "max": 3},
@@ -214,6 +228,57 @@ def fetch_rss(url: str, max_items: int) -> list[dict]:
         return results
     except Exception as e:
         print(f"  ! rss fetch failed ({url}): {e}", file=sys.stderr)
+        return []
+
+
+# ---------------------------------------------------------------------------
+# RSSHub fetcher — RSS feeds via RSSHub (Telegram channels, etc.)
+# Description HTML contains the real content links; we extract those instead
+# of using the Telegram post URL.
+# ---------------------------------------------------------------------------
+def fetch_rsshub(url: str, max_items: int, desc_link_patterns: list[str] | None = None) -> list[dict]:
+    """Fetch RSS from RSSHub, extracting real links from description HTML."""
+    try:
+        r = requests.get(
+            url,
+            timeout=20,
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "Accept": "application/rss+xml, application/xml, */*",
+            },
+        )
+        r.raise_for_status()
+        root = ET.fromstring(r.text)
+        results: list[dict] = []
+        for item in root.findall(".//item"):
+            title = (item.findtext("title") or "").strip()
+            if not title:
+                continue
+            # Primary link: <link> or <guid isPermaLink="true">
+            link = (item.findtext("link") or "").strip()
+            if not link:
+                guid = item.find("guid")
+                if guid is not None and guid.get("isPermaLink", "true") == "true":
+                    link = (guid.text or "").strip()
+            # Try to extract a better (original) link from description HTML
+            if desc_link_patterns:
+                desc = item.find("description")
+                if desc is not None and desc.text:
+                    desc_unescaped = html.unescape(desc.text)
+                    for pattern in desc_link_patterns:
+                        m = re.search(pattern, desc_unescaped)
+                        if m:
+                            link = m.group(1)
+                            break
+            if not link:
+                link = "#"
+            pub = item.findtext("pubDate") or ""
+            results.append({"title": title, "link": link, "updated": _parse_pub_date(pub)})
+            if len(results) >= max_items:
+                break
+        return results
+    except Exception as e:
+        print(f"  ! rsshub fetch failed ({url}): {e}", file=sys.stderr)
         return []
 
 
@@ -415,7 +480,7 @@ def build_priority_targets() -> str:
 
 
 def build_feed() -> str:
-    """Render feed items from multiple source types: sploitus, rss."""
+    """Render feed items from multiple source types: sploitus, rsshub, rss."""
     print("→ fetching feeds…")
     sections: list[str] = []
 
@@ -427,11 +492,13 @@ def build_feed() -> str:
 
         if feed_type == "sploitus":
             items = fetch_sploitus(url, max_items)
+        elif feed_type == "rsshub":
+            items = fetch_rsshub(url, max_items, desc_link_patterns=feed.get("desc_link_patterns"))
         else:
             items = fetch_rss(url, max_items)
 
         if items:
-            print(f"  ✓ {label}: {len(items)} items")
+            print(f"  [OK] {label}: {len(items)} items")
         else:
             print(f"  ! {label}: no items (source may be blocked)")
 
@@ -442,19 +509,21 @@ def build_feed() -> str:
         for item in items:
             title = item["title"]
             if len(title) > 70:
-                title = title[:67] + "…"
+                title = title[:67] + "..."
             rows.append(f"- `{item['updated']}` · [{title}]({item['link']})")
 
         if feed_type == "sploitus":
-            sections.append(f"#### ▸ Sploitus (exploits & CVEs)\n\n" + "\n".join(rows))
+            sections.append(f"#### > Sploitus (exploits & CVEs)\n\n" + "\n".join(rows))
+        elif feed_type == "rsshub":
+            sections.append(f"#### > {label}\n\n" + "\n".join(rows))
         else:
-            sections.append(f"#### ▸ [{label}]({url})\n\n" + "\n".join(rows))
+            sections.append(f"#### > [{label}]({url})\n\n" + "\n".join(rows))
 
     if not sections:
         # All feeds failed. Render a graceful fallback with direct links.
         return (
             "\n"
-            "⏳ feeds blocked from GitHub Actions runner · "
+            "! feeds blocked from GitHub Actions runner · "
             "[Sploitus](https://sploitus.com) · "
             "[steipete](https://steipete.me) · "
             "[cryptoeng](https://blog.cryptographyengineering.com) · "
@@ -669,11 +738,11 @@ def main() -> int:
     text = inject(text, "wakatime", build_wakatime())
 
     if text == original:
-        print("✓ nothing to update")
+        print("[OK] nothing to update")
         return 0
 
     README_PATH.write_text(text, encoding="utf-8")
-    print("✓ README.md updated")
+    print("[OK] README.md updated")
     return 0
 
 
