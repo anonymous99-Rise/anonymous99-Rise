@@ -78,9 +78,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-12-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-33-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-190-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-45-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-294-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-12-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-33-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-190-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-45-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-247-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-08-22 00:37 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-08-23 00:40 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -92,9 +92,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-08-22) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── anonymous99-Rise (?, pushed 2026-08-21) — personal profile · anonymous99-Rise
-    └── multi-agent-tasks (TypeScript, pushed 2026-08-20) — Multi-Agent Task Collaboration System based on GitHub Issues
+    ├── AI-Account-Toolkit (Python, pushed 2026-08-23) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── anonymous99-Rise (?, pushed 2026-08-22) — personal profile · anonymous99-Rise
+    └── multi-agent-tasks (TypeScript, pushed 2026-08-22) — Multi-Agent Task Collaboration System based on GitHub Issues
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -111,25 +111,25 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 #### > Sploitus (exploits & CVEs)
 
-- `2026-08-21` · [SOC-Lab-Vulnerability-Assessment exploit](https://sploitus.com/exploit?id=458CF757-B0D4-5D27-9E5F-5C580E9B0B64&utm_source=rss&utm_medium=rss)
-- `2026-08-21` · [OSCP-Exploits](https://sploitus.com/exploit?id=B17F5F4E-FAAD-5D43-863A-769ED873F3AB&utm_source=rss&utm_medium=rss)
-- `2026-08-21` · [Exploit for Improper Authentication in Apple Macos](https://sploitus.com/exploit?id=1E99C40C-4AFC-56D3-AA4D-08A333199E02&utm_source=rss&utm_medium=rss)
-- `2026-08-21` · [Exploit for Improper Access Control in Widgetfactorylimited Jce](https://sploitus.com/exploit?id=BB3A85A9-468E-5902-9898-74122FCE6534&utm_source=rss&utm_medium=rss)
-- `2026-08-21` · [dsh2shell exploit](https://sploitus.com/exploit?id=778FE329-C74E-5319-BD17-07ED1918598D&utm_source=rss&utm_medium=rss)
+- `2026-08-22` · [Exploit for Unrestricted Upload of File with Dangerous Type in Cute...](https://sploitus.com/exploit?id=DE3037CC-3A52-5C9C-B637-079CC5C589AD&utm_source=rss&utm_medium=rss)
+- `2026-08-22` · [Exploit for CVE-2026-75616](https://sploitus.com/exploit?id=8FE02773-848D-5AFE-9942-9C0B004CD15B&utm_source=rss&utm_medium=rss)
+- `2026-08-22` · [Exploit for CVE-2026-58231](https://sploitus.com/exploit?id=E10C0347-A487-529C-A636-E98E109449EE&utm_source=rss&utm_medium=rss)
+- `2026-08-22` · [Exploit for CVE-2026-52618](https://sploitus.com/exploit?id=5C5A7971-4F01-5F90-A72C-A9BB9373CCF7&utm_source=rss&utm_medium=rss)
+- `2026-08-22` · [Exploit for CVE-2026-52617](https://sploitus.com/exploit?id=091C0973-0963-54FE-B3B3-D2FE0198B351&utm_source=rss&utm_medium=rss)
 
 #### > linuxdo
 
-- `2026-08-22` · [ChatGPT WEB和APP可能降智与短时间高频请求有关？](https://linux.do/t/topic/2791263)
-- `2026-08-22` · [🖼 血泪控诉，万恶的商家...大家以后购物要多留个心眼...](https://linux.do/t/topic/2791259)
-- `2026-08-22` · [🖼 要重置了？？？是明天12点前吗，给一张重置卡 还重置一次额度](https://linux.do/t/topic/2791255)
-- `2026-08-21` · [🖼 消息称字节豆包最快下周发布对标腾讯 WorkBuddy 办公类 AI 产品](https://linux.do/t/topic/2791240)
-- `2026-08-21` · [🖼 超强新隐藏模型 - opencode 发的一周token自由](https://linux.do/t/topic/2791227)
+- `2026-08-23` · [🖼 Zlibrary主站无法通过人机验证](https://linux.do/t/topic/2794946)
+- `2026-08-23` · [如果我是那个衣食无忧的富二代...](https://linux.do/t/topic/2794936)
+- `2026-08-23` · [大佬，平时使用 cliproxyapi，现在用官方 ChatGPT 要怎么导入回话](https://linux.do/t/topic/2794935)
+- `2026-08-23` · [发点hh的药吧](https://linux.do/t/topic/2794934)
+- `2026-08-23` · [也许是L站最仿真的”该用户已被封禁“](https://linux.do/t/topic/2790689)
 
 #### > r/golang
 
-- `2026-08-21` · [biggest noob trying to learn Go](https://www.reddit.com/r/golang/comments/1vumi2p/biggest_noob_trying_to_learn_go/)
-- `2026-08-21` · [Is go a good backend language for a cloud based POS similar to Toast?](https://www.reddit.com/r/golang/comments/1vulfme/is_go_a_good_backend_language_for_a_cloud_based/)
-- `2026-08-21` · [httputil.ReverseProxy panics with ErrAbortHandler on client disconn...](https://www.reddit.com/r/golang/comments/1vuf4oj/httputilreverseproxy_panics_with_erraborthandler/)
+- `2026-08-22` · [GOKe v3 - a Go ECS I've been building for the last 9 months](https://www.reddit.com/r/golang/comments/1vv9jt1/goke_v3_a_go_ecs_ive_been_building_for_the_last_9/)
+- `2026-08-22` · [Lessons you learnt from your mistakes?](https://www.reddit.com/r/golang/comments/1vv39mf/lessons_you_learnt_from_your_mistakes/)
+- `2026-08-22` · [The Accidental Application Runtime](https://www.reddit.com/r/golang/comments/1vv38hc/the_accidental_application_runtime/)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
@@ -196,7 +196,7 @@ motto : ship the agent you'd trust at 3am
 - `JSON        ` ░░░░░░░░░░ 1.0m
 - `Python      ` ░░░░░░░░░░ 0m
 
-<sub>range: 2026-08-15 → 2026-08-22 · tz: Asia/Shanghai · source: wakatime API</sub>
+<sub>range: 2026-08-16 → 2026-08-23 · tz: Asia/Shanghai · source: wakatime API</sub>
 <!-- DYNAMIC:END -->
 
 ---
