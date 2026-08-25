@@ -78,9 +78,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-12-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-33-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-190-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-45-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-43-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-12-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-33-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-190-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-45-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-316-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-08-24 00:38 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-08-25 00:37 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -92,8 +92,8 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-08-24) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── anonymous99-Rise (?, pushed 2026-08-23) — personal profile · anonymous99-Rise
+    ├── AI-Account-Toolkit (Python, pushed 2026-08-25) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── anonymous99-Rise (?, pushed 2026-08-24) — personal profile · anonymous99-Rise
     └── multi-agent-tasks (TypeScript, pushed 2026-08-22) — Multi-Agent Task Collaboration System based on GitHub Issues
 
 [+] currently learning
@@ -111,25 +111,25 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 #### > Sploitus (exploits & CVEs)
 
-- `2026-08-23` · [0day-eds exploit](https://sploitus.com/exploit?id=1CB841FD-4B04-5942-A754-29E7A501B78A&utm_source=rss&utm_medium=rss)
-- `2026-08-23` · [pentesting-lab-ntlm-relay exploit](https://sploitus.com/exploit?id=3F3F9698-88A3-537F-AE19-A82332CCF4CF&utm_source=rss&utm_medium=rss)
-- `2026-08-23` · [Exploit for SQL Injection in Phpmyadmin](https://sploitus.com/exploit?id=5DD75570-21AE-5284-9D3D-55E377264B1F&utm_source=rss&utm_medium=rss)
-- `2026-08-23` · [solutions exploit](https://sploitus.com/exploit?id=260BB20D-7E01-5A22-AD21-20F63E8EC7CE&utm_source=rss&utm_medium=rss)
-- `2026-08-23` · [Exploit for Release of Invalid Pointer or Reference in Mozilla Firefox](https://sploitus.com/exploit?id=46CACC58-44DA-5127-AC4E-775083607CF1&utm_source=rss&utm_medium=rss)
+- `2026-08-24` · [Exploit for CVE-2026-18963](https://sploitus.com/exploit?id=B9ECC673-A7CC-5EAE-85D2-AB66A14EEF0C&utm_source=rss&utm_medium=rss)
+- `2026-08-24` · [Exploit for Improper Privilege Management in Mozilla Firefox](https://sploitus.com/exploit?id=DA7E875A-0206-55F2-B9D4-A4D8854AB3AB&utm_source=rss&utm_medium=rss)
+- `2026-08-24` · [Acelle-Mail-4.0.24-Unauthenticated-Path-Traversal-to-RCE-Chain exploit](https://sploitus.com/exploit?id=AC1C6CCB-4293-5856-8A3E-EF79FBF3897E&utm_source=rss&utm_medium=rss)
+- `2026-08-24` · [Exploit for Improper Restriction of Excessive Authentication Attemp...](https://sploitus.com/exploit?id=F513EBE7-12DB-5C5D-8857-C0AF6BD5141D&utm_source=rss&utm_medium=rss)
+- `2026-08-24` · [Exploit for Use After Free in Microsoft](https://sploitus.com/exploit?id=25EC0A91-E720-5F59-8D03-07045F8491C9&utm_source=rss&utm_medium=rss)
 
 #### > linuxdo
 
-- `2026-08-24` · [求推荐使用claude的vps，在vps上使用](https://linux.do/t/topic/2798406)
-- `2026-08-24` · [想去看演唱会，佬们](https://linux.do/t/topic/2798475)
-- `2026-08-24` · [佬友的Pro20x重置了吗？](https://linux.do/t/topic/2798474)
-- `2026-08-24` · [pro 20x依然没重置](https://linux.do/t/topic/2798467)
-- `2026-08-24` · [真是一个让人又爱又恨的地方啊](https://linux.do/t/topic/2798466)
+- `2026-08-24` · [New Free Game Found - By Reddit Scraper](https://t.me/linuxdoit/411363)
+- `2026-08-24` · [🖼 🎮 Dokimon Quest](https://t.me/linuxdoit/411362)
+- `2026-08-24` · [🖼 开源推广 - CPA粘滞代理插件](https://linux.do/t/topic/2804631)
+- `2026-08-24` · [🖼 codex取消额度0%继续工作的机制，让我想到了奥德赛](https://linux.do/t/topic/2804629)
+- `2026-08-24` · [🖼 GPT 莫名其妙用喵语说话](https://linux.do/t/topic/2804622)
 
 #### > r/golang
 
-- `2026-08-24` · [Kafaka Emerging](https://www.reddit.com/r/golang/comments/1vwmu8u/kafaka_emerging/)
-- `2026-08-23` · [Architectural debate: Should a zero-trust AI proxy strictly be writ...](https://www.reddit.com/r/golang/comments/1vwac2n/architectural_debate_should_a_zerotrust_ai_proxy/)
-- `2026-08-23` · [Go singleflight: Cancellation and Shutdown](https://www.reddit.com/r/golang/comments/1vw5lu5/go_singleflight_cancellation_and_shutdown/)
+- `2026-08-24` · [Small Projects](https://www.reddit.com/r/golang/comments/1vxc255/small_projects/)
+- `2026-08-24` · [How do I add a go MCP Server](https://www.reddit.com/r/golang/comments/1vx9fui/how_do_i_add_a_go_mcp_server/)
+- `2026-08-24` · [Excessive nil pointer checks in Go](https://www.reddit.com/r/golang/comments/1vx8uvc/excessive_nil_pointer_checks_in_go/)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
@@ -196,7 +196,7 @@ motto : ship the agent you'd trust at 3am
 - `JSON        ` ░░░░░░░░░░ 1.0m
 - `Python      ` ░░░░░░░░░░ 0m
 
-<sub>range: 2026-08-17 → 2026-08-24 · tz: Asia/Shanghai · source: wakatime API</sub>
+<sub>range: 2026-08-18 → 2026-08-25 · tz: Asia/Shanghai · source: wakatime API</sub>
 <!-- DYNAMIC:END -->
 
 ---
