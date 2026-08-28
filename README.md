@@ -78,9 +78,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-12-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-33-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-191-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-45-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-389-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-12-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-33-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-191-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-45-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-547-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-08-27 05:39 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-08-28 07:47 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -92,9 +92,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-08-27) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── anonymous99-Rise (?, pushed 2026-08-27) — personal profile · anonymous99-Rise
-    └── multi-agent-tasks (TypeScript, pushed 2026-08-26) — Multi-Agent Task Collaboration System based on GitHub Issues
+    ├── AI-Account-Toolkit (Python, pushed 2026-08-28) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── anonymous99-Rise (?, pushed 2026-08-28) — personal profile · anonymous99-Rise
+    └── multi-agent-tasks (TypeScript, pushed 2026-08-27) — Multi-Agent Task Collaboration System based on GitHub Issues
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -111,25 +111,25 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 #### > Sploitus (exploits & CVEs)
 
-- `2026-08-27` · [CVE-2026-23398 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-JOHANNESLKS-CVE-2026-23398&utm_source=rss&utm_medium=rss)
-- `2026-08-27` · [CVE-2023-0179-PoC exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-H4K6-CVE-2023-0179-POC&utm_source=rss&utm_medium=rss)
-- `2026-08-27` · [w3af exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-ANDRESRIANCHO-W3AF&utm_source=rss&utm_medium=rss)
-- `2026-08-27` · [monty exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-PYDANTIC-MONTY&utm_source=rss&utm_medium=rss)
-- `2026-08-27` · [awesome-hacker-search-engines exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-EDOARDOTTT-AWESOME-HACKER-SEARCH-ENGINES&utm_source=rss&utm_medium=rss)
+- `2026-08-28` · [ArchiveBox exploit](https://sploitus.com/exploit?id=24583EFB-830F-5D31-97BF-5F77FA4D834B&utm_source=rss&utm_medium=rss)
+- `2026-08-28` · [Blackash-CVE-2025-53770 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-YOSASASUTSUT-BLACKASH-CVE-2025-53770&utm_source=rss&utm_medium=rss)
+- `2026-08-28` · [Look-at-The-XNU-Through-A-Tube-CVE-2018-4242-Write-up-Translation- ...](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-YEONNIC-LOOK-AT-THE-XNU-THROUGH-A-TUBE-CVE-2018-4242-WRITE-UP-TRANSLATION-&utm_source=rss&utm_medium=rss)
+- `2026-08-28` · [NekoBotV1 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-TEGAL1337-NEKOBOTV1&utm_source=rss&utm_medium=rss)
+- `2026-08-28` · [mig exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-MOZILLA-MIG&utm_source=rss&utm_medium=rss)
 
 #### > linuxdo
 
-- `2026-08-26` · [🖼 Telegram必备的搜索引擎，极搜JISOU帮你精准找到，想要的群组、频道、视频、音乐](https://t.me/linuxdoit/411368)
-- `2026-08-26` · [New Free Game Found - By Reddit Scraper](https://t.me/linuxdoit/411365)
-- `2026-08-25` · [New Free Game Found - By Reddit Scraper](https://t.me/linuxdoit/411364)
-- `2026-08-24` · [New Free Game Found - By Reddit Scraper](https://t.me/linuxdoit/411363)
-- `2026-08-24` · [🖼 🎮 Dokimon Quest](https://t.me/linuxdoit/411362)
+- `2026-08-28` · [🖼 Telegram必备的搜索引擎，极搜JISOU帮你精准找到，想要的群组、频道、视频、音乐](https://t.me/linuxdoit/411477)
+- `2026-08-28` · [Qoder CLI BYOK script](https://linux.do/t/topic/2824397)
+- `2026-08-28` · [🖼 本金 33.55U，Grok 天才交易员 Day 1](https://linux.do/t/topic/2820064)
+- `2026-08-28` · [🖼 [公益推广] 擦边短视频-增加小鹿乱撞和迷之突起模式,更多的北半球短视频](https://linux.do/t/topic/2823751)
+- `2026-08-28` · [🖼 披着Ox-alpha马甲的GLM-5.3-flash居然是运行在两光的10W卡国产设备上，国产貌似真的要起来了](https://linux.do/t/topic/2822285)
 
 #### > r/golang
 
-- `2026-08-27` · [I've built a full POS & Inventory app in Go + React - one static bi...](https://www.reddit.com/r/golang/comments/1vzj37y/ive_built_a_full_pos_inventory_app_in_go_react/)
-- `2026-08-27` · [Recommended way to execute command on remote host using SSH and cop...](https://www.reddit.com/r/golang/comments/1vz96vy/recommended_way_to_execute_command_on_remote_host/)
-- `2026-08-27` · [Free manga media by terminal](https://www.reddit.com/r/golang/comments/1vzdx5k/free_manga_media_by_terminal/)
+- `2026-08-27` · [We’re rebuilding a Minecraft server from scratch in Go with native ...](https://www.reddit.com/r/golang/comments/1vzx7vt/were_rebuilding_a_minecraft_server_from_scratch/)
+- `2026-08-27` · [Using Scoped Coverage to Prune an AI-Generated Go Test Suite](https://www.reddit.com/r/golang/comments/1vzvn0k/using_scoped_coverage_to_prune_an_aigenerated_go/)
+- `2026-08-27` · [Containers](https://www.reddit.com/r/golang/comments/1vzobve/containers/)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
@@ -188,14 +188,7 @@ motto : ship the agent you'd trust at 3am
 ## ◢ wakatime
 
 <!-- DYNAMIC:START -->
-**`1.0h 31.0m`** coded in last 7 days · editors: `Claude Code` (48.0m), `VS Code` (42.0m)
-
-- `Markdown    ` ██████████ 42.0m
-- `Other       ` ████████░░ 37.0m
-- `YAML        ` ██░░░░░░░░ 10.0m
-- `Python      ` ░░░░░░░░░░ 0m
-
-<sub>range: 2026-08-20 → 2026-08-27 · tz: Asia/Shanghai · source: wakatime API</sub>
+<sub align="center">⏳ no wakatime data in last 7 days (2026-08-21 → 2026-08-28, tz=Asia/Shanghai)</sub>
 <!-- DYNAMIC:END -->
 
 ---
