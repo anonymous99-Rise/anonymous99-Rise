@@ -78,9 +78,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-12-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-33-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-191-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-45-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-494-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-12-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-33-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-191-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-45-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-70-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-08-29 04:47 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-08-30 02:18 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -92,9 +92,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-08-29) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── anonymous99-Rise (?, pushed 2026-08-29) — personal profile · anonymous99-Rise
-    └── multi-agent-tasks (TypeScript, pushed 2026-08-27) — Multi-Agent Task Collaboration System based on GitHub Issues
+    ├── AI-Account-Toolkit (Python, pushed 2026-08-30) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── anonymous99-Rise (?, pushed 2026-08-30) — personal profile · anonymous99-Rise
+    └── multi-agent-tasks (TypeScript, pushed 2026-08-29) — Multi-Agent Task Collaboration System based on GitHub Issues
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -111,25 +111,25 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 #### > Sploitus (exploits & CVEs)
 
-- `2026-08-29` · [w3af exploit](https://sploitus.com/exploit?id=KITPLOIT:5524291413480264009&utm_source=rss&utm_medium=rss)
-- `2026-08-29` · [prowler exploit](https://sploitus.com/exploit?id=KITPLOIT:568260029633811872&utm_source=rss&utm_medium=rss)
-- `2026-08-29` · [web-wordlist-generator exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-OSMANKANDEMIR-WEB-WORDLIST-GENERATOR&utm_source=rss&utm_medium=rss)
-- `2026-08-29` · [loboguara exploit](https://sploitus.com/exploit?id=KITPLOIT:7747211875710715598&utm_source=rss&utm_medium=rss)
-- `2026-08-29` · [fses exploit](https://sploitus.com/exploit?id=KITPLOIT:3388925062728887123&utm_source=rss&utm_medium=rss)
+- `2026-08-29` · [oathkeeper exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-ORY-OATHKEEPER&utm_source=rss&utm_medium=rss)
+- `2026-08-29` · [ultralytics exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-ULTRALYTICS-ULTRALYTICS&utm_source=rss&utm_medium=rss)
+- `2026-08-29` · [stringsifter exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-MANDIANT-STRINGSIFTER&utm_source=rss&utm_medium=rss)
+- `2026-08-29` · [CVE-2023-21716 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-XNUVERS007-CVE-2023-21716&utm_source=rss&utm_medium=rss)
+- `2026-08-29` · [CVE-2019-11043 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-JAS502N-CVE-2019-11043&utm_source=rss&utm_medium=rss)
 
 #### > linuxdo
 
-- `2026-08-29` · [提链 — ChatGPT 跨区支付链接提取的完整技术拆解（来源于某大佬的博客，仅作分享，有些内容观点可能比较旧）](https://linux.do/t/topic/2827151)
-- `2026-08-29` · [【九幺】怀念版能用DeepseekV4 Pro——10000000$额度key](https://linux.do/t/topic/2827686)
-- `2026-08-29` · [🖼 【富可敌国】CUN.AI 官方原生通道，不参水，不降智！时间证明一切！已上 Ox Alpha！0.9x倍率｜综合低至 4.9 折，...](https://linux.do/t/topic/2824783)
-- `2026-08-29` · [hy 4大概是背题了？](https://linux.do/t/topic/2827302)
-- `2026-08-29` · [速领，农业银行省钱月卡一共 15 元立减金](https://linux.do/t/topic/2823838)
+- `2026-08-30` · [🖼 终于是撬开龟壳了](https://linux.do/t/topic/2830289)
+- `2026-08-30` · [最新话题 - 2026年8月30日09:00摘要 (近3小时)](https://linux.do/t/topic/2830418)
+- `2026-08-29` · [忍受不了gpt拉的屎，我写了个skill来约束它的怪癖](https://linux.do/t/topic/2830055)
+- `2026-08-29` · [跨城干预网友自杀，跨省报警的全记录](https://linux.do/t/topic/2830235)
+- `2026-08-29` · [最新话题 - 2026年8月30日06:00摘要 (近3小时)](https://linux.do/t/topic/2830340)
 
 #### > r/golang
 
-- `2026-08-29` · [When do you move code out of main.go in a small Go service?](https://www.reddit.com/r/golang/comments/1w17ph2/when_do_you_move_code_out_of_maingo_in_a_small_go/)
-- `2026-08-28` · [I hate where Go is moving](https://www.reddit.com/r/golang/comments/1w1281n/i_hate_where_go_is_moving/)
-- `2026-08-28` · [Make Go test failures readable with should](https://www.reddit.com/r/golang/comments/1w1115f/make_go_test_failures_readable_with_should/)
+- `2026-08-30` · [Why don't we embed the connection pool?](https://www.reddit.com/r/golang/comments/1w21v2b/why_dont_we_embed_the_connection_pool/)
+- `2026-08-29` · [Which framework shall I use for REST API backend?](https://www.reddit.com/r/golang/comments/1w20c56/which_framework_shall_i_use_for_rest_api_backend/)
+- `2026-08-29` · [Handoff: single binary for moving uncommitted Git changes between m...](https://www.reddit.com/r/golang/comments/1w1xar9/handoff_single_binary_for_moving_uncommitted_git/)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
@@ -188,7 +188,7 @@ motto : ship the agent you'd trust at 3am
 ## ◢ wakatime
 
 <!-- DYNAMIC:START -->
-<sub align="center">⏳ no wakatime data in last 7 days (2026-08-22 → 2026-08-29, tz=Asia/Shanghai)</sub>
+<sub align="center">⏳ no wakatime data in last 7 days (2026-08-23 → 2026-08-30, tz=Asia/Shanghai)</sub>
 <!-- DYNAMIC:END -->
 
 ---
