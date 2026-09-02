@@ -79,9 +79,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-13-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-35-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-195-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-46-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-347-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-13-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-35-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-195-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-46-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-492-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-09-01 02:32 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-09-02 01:53 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -93,9 +93,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-09-01) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── anonymous99-Rise (?, pushed 2026-09-01) — personal profile · anonymous99-Rise
-    └── RelaxSelf (JavaScript, pushed 2026-08-31) — no description
+    ├── AI-Account-Toolkit (Python, pushed 2026-09-02) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── anonymous99-Rise (?, pushed 2026-09-02) — personal profile · anonymous99-Rise
+    └── multi-agent-tasks (TypeScript, pushed 2026-09-01) — Multi-Agent Task Collaboration System based on GitHub Issues
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -112,25 +112,25 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 #### > Sploitus (exploits & CVEs)
 
-- `2026-08-31` · [nmap exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-NMAP-NMAP&utm_source=rss&utm_medium=rss)
-- `2026-08-31` · [CVE-2025-59287 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-JIANSITING-CVE-2025-59287&utm_source=rss&utm_medium=rss)
-- `2026-08-31` · [CVE-2011-1249 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-H3X0V3RL0RD-CVE-2011-1249&utm_source=rss&utm_medium=rss)
-- `2026-08-31` · [cve_2022_0847_shellcode exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-SHOTOKHAN-CVE_2022_0847_SHELLCODE&utm_source=rss&utm_medium=rss)
-- `2026-08-31` · [CVE-2022-24760 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-TUO4N8-CVE-2022-24760&utm_source=rss&utm_medium=rss)
+- `2026-09-01` · [CVE-2025-1974_IngressNightmare_PoC exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-ABREWER251-CVE-2025-1974_INGRESSNIGHTMARE_POC&utm_source=rss&utm_medium=rss)
+- `2026-09-01` · [CVE-2017-5007 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-ANG-YC-CVE-2017-5007&utm_source=rss&utm_medium=rss)
+- `2026-09-01` · [CVE-2023-41992 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-WHW0X455-CVE-2023-41992&utm_source=rss&utm_medium=rss)
+- `2026-09-01` · [AgentMemshell exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-FIGHTINGLZN9-AGENTMEMSHELL&utm_source=rss&utm_medium=rss)
+- `2026-09-01` · [govuln-CVE-2023-47108 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BAHE-MSFT-GOVULN-CVE-2023-47108&utm_source=rss&utm_medium=rss)
 
 #### > linuxdo
 
-- `2026-09-01` · [景甜、张继科，性工作者的爱情——李新野](https://linux.do/t/topic/2837931)
-- `2026-09-01` · [深夜看佬友拼车被骗维权贴有感，讲一件我从未说出口的事](https://linux.do/t/topic/2837922)
-- `2026-09-01` · [和女朋友要同居了，有什么建议吗](https://linux.do/t/topic/2837867)
-- `2026-09-01` · [🖼 【开源】Claude2API、支持镜像站、工具调用、接入codex和claude code](https://linux.do/t/topic/2837368)
-- `2026-09-01` · [最新话题 - 2026年9月1日09:00摘要 (近3小时)](https://linux.do/t/topic/2838076)
+- `2026-09-02` · [Fable5.1，四冲程柴油机测试](https://linux.do/t/topic/2842487)
+- `2026-09-02` · [最新话题 - 2026年9月2日09:00摘要 (近3小时)](https://linux.do/t/topic/2842553)
+- `2026-09-01` · [入职1个来月，我已经快被这个项目干崩了](https://linux.do/t/topic/2838668)
+- `2026-09-01` · [最新话题 - 2026年9月2日06:00摘要 (近3小时)](https://linux.do/t/topic/2842452)
+- `2026-09-01` · [🖼 Typora免费零依赖激活方法 已验证1.9.5版本可用](https://linux.do/t/topic/2839906)
 
 #### > r/golang
 
-- `2026-08-31` · [Terminating elegantly: a guide to graceful shutdowns](https://www.reddit.com/r/golang/comments/1w3qe2i/terminating_elegantly_a_guide_to_graceful/)
-- `2026-08-31` · [Small Projects](https://www.reddit.com/r/golang/comments/1w3ndze/small_projects/)
-- `2026-08-31` · [The Bucket Is the Log: Building an Append-Only Log on Object Storag...](https://www.reddit.com/r/golang/comments/1w3kost/the_bucket_is_the_log_building_an_appendonly_log/)
+- `2026-09-02` · [Go 1.27.1 is released](https://www.reddit.com/r/golang/comments/1w4rneq/go_1271_is_released/)
+- `2026-09-01` · [I interviewed Jon Bodner (author of Learning Go) about Go’s design,...](https://www.reddit.com/r/golang/comments/1w4l5v6/i_interviewed_jon_bodner_author_of_learning_go/)
+- `2026-09-01` · [Go for Healthcare Software: 3 Problems, One Language](https://www.reddit.com/r/golang/comments/1w4hxpj/go_for_healthcare_software_3_problems_one_language/)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
@@ -183,7 +183,7 @@ motto : ship the agent you'd trust at 3am
 ## ◢ wakatime
 
 <!-- DYNAMIC:START -->
-<sub align="center">⏳ wakatime not configured · set <code>WAKATIME_API_KEY</code> secret to enable · see <a href="https://wakatime.com/settings/api-key">wakatime.com/settings/api-key</a></sub>
+<sub align="center">⏳ no wakatime data in last 7 days (2026-08-26 → 2026-09-02, tz=Asia/Shanghai)</sub>
 <!-- DYNAMIC:END -->
 
 ---
