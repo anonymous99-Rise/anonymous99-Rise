@@ -80,9 +80,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-13-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-40-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-199-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-49-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-561-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-13-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-40-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-199-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-49-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-133-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-09-05 01:55 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-09-06 01:49 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -94,9 +94,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-09-05) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── github_monitor (HTML, pushed 2026-09-05) — 实时监控github上新增的cve、自定义关键词、安全工具更新、大佬仓库监控，并多渠道推送通知
-    └── anonymous99-Rise (?, pushed 2026-09-05) — personal profile · anonymous99-Rise
+    ├── AI-Account-Toolkit (Python, pushed 2026-09-06) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── honeypot-blocklist (Python, pushed 2026-09-06) — HFish 蜜罐威胁情报源 | High-fidelity Threat Feed derived from HF…
+    └── DarkWeb-Forums-Tracker (HTML, pushed 2026-09-06) — no description
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -113,25 +113,25 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 #### > Sploitus (exploits & CVEs)
 
-- `2026-09-04` · [CVE-2017-2671 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-HOMJXI0E-CVE-2017-2671&utm_source=rss&utm_medium=rss)
-- `2026-09-04` · [CVE-2021-44228 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-LUCASPDINIZ-CVE-2021-44228&utm_source=rss&utm_medium=rss)
-- `2026-09-04` · [adwind-decryptor exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-MHELWIG-ADWIND-DECRYPTOR&utm_source=rss&utm_medium=rss)
-- `2026-09-04` · [CVE-2024-28000 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-ALIHZSEC-CVE-2024-28000&utm_source=rss&utm_medium=rss)
-- `2026-09-04` · [Project-Onyx exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-X-3306-PROJECT-ONYX&utm_source=rss&utm_medium=rss)
+- `2026-09-06` · [pygoat exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-ADEYOSEMANPUTRA-PYGOAT&utm_source=rss&utm_medium=rss)
+- `2026-09-06` · [SharpFtpC2 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-DARKCODERSC-SHARPFTPC2&utm_source=rss&utm_medium=rss)
+- `2026-09-06` · [DumpSMBShare exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-P0DALIRIUS-DUMPSMBSHARE&utm_source=rss&utm_medium=rss)
+- `2026-09-06` · [HazProne exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-STAFORDTITUSS-HAZPRONE&utm_source=rss&utm_medium=rss)
+- `2026-09-06` · [reconness exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-RECONNESS-RECONNESS&utm_source=rss&utm_medium=rss)
 
 #### > linuxdo
 
-- `2026-09-05` · [🖼 GPT-6 Astra 极高 鹈鹕骑自行车测试（你逗我呢，这是6？？？）](https://linux.do/t/topic/2857243)
-- `2026-09-05` · [🖼 被GPT 6 Astra吓哭，仿佛看到原子弹爆炸（）](https://linux.do/t/topic/2857419)
-- `2026-09-05` · [用Astra和Fable5.1小游戏对比 这下真瘫坐在电脑前了](https://linux.do/t/topic/2857311)
-- `2026-09-05` · [最新话题 - 2026年9月5日09:00摘要 (近3小时)](https://linux.do/t/topic/2857361)
-- `2026-09-04` · [[开源] OmniMail 1.0.0 正式发布：你的多邮箱工作台](https://linux.do/t/topic/2856438)
+- `2026-09-06` · [🖼 域名邮箱-周末继续扩招，截止到周日12点哦](https://linux.do/t/topic/2848157)
+- `2026-09-06` · [🖼 【富可敌国 | 冰山公益站】 想做比肩付费站的不降智公益站！冰山被撞，掉落200个无需LDC的注册码](https://linux.do/t/topic/2860625)
+- `2026-09-06` · [现在是做独立游戏的最好时代](https://linux.do/t/topic/2860656)
+- `2026-09-06` · [最新话题 - 2026年9月6日09:00摘要 (近3小时)](https://linux.do/t/topic/2861747)
+- `2026-09-05` · [受不了模型降智](https://linux.do/t/topic/2861367)
 
 #### > r/golang
 
-- `2026-09-04` · [How do you handle background work during graceful shutdown in a sma...](https://www.reddit.com/r/golang/comments/1w78tvd/how_do_you_handle_background_work_during_graceful/)
-- `2026-09-04` · [Ergo Framework 3.3: taking observability and reliability to the nex...](https://www.reddit.com/r/golang/comments/1w780kf/ergo_framework_33_taking_observability_and/)
-- `2026-09-04` · [how to parse a json number](https://www.reddit.com/r/golang/comments/1w77oxt/how_to_parse_a_json_number/)
+- `2026-09-05` · [Functional options design pattern and implementation.](https://www.reddit.com/r/golang/comments/1w82cq1/functional_options_design_pattern_and/)
+- `2026-09-05` · [How to parametrize an input to be evaluated](https://www.reddit.com/r/golang/comments/1w8606s/how_to_parametrize_an_input_to_be_evaluated/)
+- `2026-09-05` · [Oto v3.5.0 Released (A low-level library to play sound)](https://www.reddit.com/r/golang/comments/1w7wvlz/oto_v350_released_a_lowlevel_library_to_play_sound/)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
@@ -192,7 +192,7 @@ motto : ship the agent you'd trust at 3am
 - `HTML        ` █░░░░░░░░░ 17.0m
 - `Other       ` ░░░░░░░░░░ 13.0m
 
-<sub>range: 2026-08-29 → 2026-09-05 · tz: Asia/Shanghai · source: wakatime API</sub>
+<sub>range: 2026-08-30 → 2026-09-06 · tz: Asia/Shanghai · source: wakatime API</sub>
 <!-- DYNAMIC:END -->
 
 ---
