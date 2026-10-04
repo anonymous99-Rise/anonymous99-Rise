@@ -82,9 +82,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-19-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-62-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-220-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-86-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-397-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-19-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-62-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-220-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-86-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-106-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-10-03 02:49 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-10-04 03:19 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -96,9 +96,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-10-03) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── github_monitor (HTML, pushed 2026-10-03) — 实时监控github上新增的cve、自定义关键词、安全工具更新、大佬仓库监控，并多渠道推送通知
-    └── anonymous99-Rise (?, pushed 2026-10-03) — personal profile · anonymous99-Rise
+    ├── AI-Account-Toolkit (Python, pushed 2026-10-04) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── github_monitor (HTML, pushed 2026-10-04) — 实时监控github上新增的cve、自定义关键词、安全工具更新、大佬仓库监控，并多渠道推送通知
+    └── anonymous99-Rise (?, pushed 2026-10-04) — personal profile · anonymous99-Rise
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -115,25 +115,25 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 #### > Sploitus (exploits & CVEs)
 
-- `2026-10-03` · [Exploit for CVE-2026-105030](https://sploitus.com/exploit?id=4891F60F-CA71-5B91-98EE-64FBB89B6B08&utm_source=rss&utm_medium=rss)
-- `2026-10-03` · [s24-e1q-root exploit](https://sploitus.com/exploit?id=3399092D-B803-5C39-A3E3-DB5C784B8C1B&utm_source=rss&utm_medium=rss)
-- `2026-10-02` · [Exploit for CVE-2026-102282](https://sploitus.com/exploit?id=23482FFE-B5C9-5736-A66B-ABBDCFF4AFA5&utm_source=rss&utm_medium=rss)
-- `2026-10-02` · [Exploit for CVE-2026-15989](https://sploitus.com/exploit?id=9F5189C5-CE21-56B0-BC4D-0E6C71AE4BEA&utm_source=rss&utm_medium=rss)
-- `2026-10-02` · [relapse exploit](https://sploitus.com/exploit?id=6988CA7C-4653-5F42-8E60-DAB4E57F6B60&utm_source=rss&utm_medium=rss)
+- `2026-10-04` · [Root-My-Galaxy-Payloads exploit](https://sploitus.com/exploit?id=E35EADD4-119F-5554-BD30-62D9B05AD178&utm_source=rss&utm_medium=rss)
+- `2026-10-03` · [Exploit for Improper Encoding or Escaping of Output in Motioneye_Pr...](https://sploitus.com/exploit?id=DA26F5F2-4091-52FF-AC34-43E8B5297DC1&utm_source=rss&utm_medium=rss)
+- `2026-10-03` · [Exploit for Missing Authentication for Critical Function in Nginxui...](https://sploitus.com/exploit?id=7C3CEB66-1DCE-5EBA-9FCA-3B3691F18588&utm_source=rss&utm_medium=rss)
+- `2026-10-03` · [Exploit for CVE-2026-103956](https://sploitus.com/exploit?id=C3321643-5A75-57A5-8B74-AC3AE48421E9&utm_source=rss&utm_medium=rss)
+- `2026-10-03` · [ps5-esp32host exploit](https://sploitus.com/exploit?id=8A8BB820-C395-5700-ADAE-514D03DB507B&utm_source=rss&utm_medium=rss)
 
 #### > linuxdo
 
+- `2026-10-03` · [LINUX DO - 最新话题](https://t.me/linuxdoit/414270)
+- `2026-10-03` · [🖼 Telegram必备的搜索引擎，极搜JISOU帮你精准找到，想要的群组、频道、视频、音乐](https://t.me/linuxdoit/414269)
+- `2026-10-03` · [LINUX DO - 热门话题](https://t.me/linuxdoit/414268)
 - `2026-10-02` · [热门话题 - 2026年10月3日00:00摘要 (近24小时)](https://linux.do/t/topic/2976152)
 - `2026-10-02` · [福利羊毛 - 2026年10月3日00:00摘要 (近24小时)](https://linux.do/t/topic/2976401)
-- `2026-10-02` · [最新话题 - 2026年10月2日21:00摘要 (近3小时)](https://linux.do/t/topic/2977393)
-- `2026-10-02` · [🖼 嘻嘻，夺舍啦](https://linux.do/t/topic/2976553)
-- `2026-10-02` · [国产模型(可能)已经到了最危险的边缘【Opus 5.5 体验报告】](https://linux.do/t/topic/2977126)
 
 #### > r/golang
 
-- `2026-10-02` · [How to check for undefined attributes on JSON?](https://www.reddit.com/r/golang/comments/1ww034a/how_to_check_for_undefined_attributes_on_json/)
-- `2026-10-02` · [I built a pure Go supervisor proxy to make harnesses like Zoo, Clin...](https://www.reddit.com/r/golang/comments/1wvq7s5/i_built_a_pure_go_supervisor_proxy_to_make/)
-- `2026-10-02` · [GoEventBus: a high-performance Go event bus with optional intellige...](https://www.reddit.com/r/golang/comments/1wvo6l6/goeventbus_a_highperformance_go_event_bus_with/)
+- `2026-10-03` · [controlsys v1.12.0: a control-systems toolbox for Go (MIT)](https://www.reddit.com/r/golang/comments/1wwp9a9/controlsys_v1120_a_controlsystems_toolbox_for_go/)
+- `2026-10-03` · [Why always Rust and not Go?](https://www.reddit.com/r/golang/comments/1wwtuxn/why_always_rust_and_not_go/)
+- `2026-10-03` · [Arch-specific SIMD in Go - The Go Programming Language](https://www.reddit.com/r/golang/comments/1wwpfbh/archspecific_simd_in_go_the_go_programming/)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
@@ -186,7 +186,7 @@ motto : ship the agent you'd trust at 3am
 ## ◢ wakatime
 
 <!-- DYNAMIC:START -->
-<sub align="center">⏳ no wakatime data in last 7 days (2026-09-26 → 2026-10-03, tz=Asia/Shanghai)</sub>
+<sub align="center">⏳ no wakatime data in last 7 days (2026-09-27 → 2026-10-04, tz=Asia/Shanghai)</sub>
 <!-- DYNAMIC:END -->
 
 ---
