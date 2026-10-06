@@ -68,7 +68,7 @@ motto : ship the agent you'd trust at 3am
 |---|---|---|---|
 | 🎯 | **[jarvis](https://github.com/anonymous99-Rise/jarvis)** | JARVIS personal assistant - procurement notice command center demo | `TypeScript` ⭐0 |
 | 🛰️ | **[BidMaster-Pro](https://github.com/anonymous99-Rise/BidMaster-Pro)** | 全流程 智能招投标 Agent：标书生成 · 招投标解读 · 标书检查 · 标书文档ai排版 · 商机发现 一键完成。 21 项合规检… | `Python` ⭐2 |
-| 🔥 | **[yysls-coordinate-webui](https://github.com/anonymous99-Rise/yysls-coordinate-webui)** | 燕云十六声坐标库：6071 个规范化点位 + WebUI + 纯 Python 自动采集（识途寻路 / 视觉识别 / 扫描码发键） | `Python` ⭐2 |
+| 🔥 | **[yysls-coordinate-webui](https://github.com/anonymous99-Rise/yysls-coordinate-webui)** | 燕云十六声坐标库：6071 个规范化点位 + WebUI + 纯 Python 自动采集（识途寻路 / 视觉识别 / 扫描码发键） | `Python` ⭐1 |
 | 🕸️ | **[exam-quiz](https://github.com/anonymous99-Rise/exam-quiz)** | CET-6/CET-4 英语真题刷题站：逐题解析、听力原声、整卷模考、进度云同步 | `TypeScript` ⭐0 |
 | 📡 | **[awesome-dsh-zotero](https://github.com/anonymous99-Rise/awesome-dsh-zotero)** | 🧬 DSH 科研工具手册：Zotero 插件 × DSH Desktop × 生物信息学科研工作流（Markdown 源 + DOCX… | `JavaScript` ⭐1 |
 | 🐚 | **[code_review_repo](https://github.com/anonymous99-Rise/code_review_repo)** | no description | `—` ⭐0 |
@@ -82,9 +82,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-19-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-62-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-220-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-88-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-107-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-19-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-62-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-220-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-88-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-388-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-10-05 02:56 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-10-06 03:46 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -96,9 +96,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-10-05) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── honeypot-blocklist (Python, pushed 2026-10-05) — HFish 蜜罐威胁情报源 | High-fidelity Threat Feed derived from HF…
-    └── anonymous99-Rise (?, pushed 2026-10-05) — personal profile · anonymous99-Rise
+    ├── AI-Account-Toolkit (Python, pushed 2026-10-06) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── anonymous99-Rise (?, pushed 2026-10-06) — personal profile · anonymous99-Rise
+    └── github_monitor (HTML, pushed 2026-10-06) — 实时监控github上新增的cve、自定义关键词、安全工具更新、大佬仓库监控，并多渠道推送通知
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -115,25 +115,25 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 #### > Sploitus (exploits & CVEs)
 
-- `2026-10-05` · [Exploit for Argument Injection in Thecodingmachine Gotenberg](https://sploitus.com/exploit?id=4CBC2CF2-7EE9-52A4-B751-B8AE30E35150&utm_source=rss&utm_medium=rss)
-- `2026-10-04` · [mav-raiders exploit](https://sploitus.com/exploit?id=E6F5D9E9-E637-5B91-8602-3A949F0EEF3F&utm_source=rss&utm_medium=rss)
-- `2026-10-04` · [ai_bobao exploit](https://sploitus.com/exploit?id=C67994F7-7BEE-5B6C-8341-7C713D433C41&utm_source=rss&utm_medium=rss)
-- `2026-10-04` · [metasploitable2-red-team-assessment exploit](https://sploitus.com/exploit?id=D443F962-3140-53CE-AC7C-A200B126213D&utm_source=rss&utm_medium=rss)
-- `2026-10-04` · [WORDPRESS-CVE-2024-25600-EXPLOIT-RCE](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-X-PROJETION-WORDPRESS-CVE-2024-25600-EXPLOIT-RCE&utm_source=rss&utm_medium=rss)
+- `2026-10-05` · [proof-of-exploit](https://sploitus.com/exploit?id=9425E0B6-6BA7-5C80-9FA0-0D15D4376398&utm_source=rss&utm_medium=rss)
+- `2026-10-05` · [Exploit for Injection in Dlink Dir-868L_B1_Firmware](https://sploitus.com/exploit?id=18E87B01-A14E-57E8-A3AB-E3DA945FB6B4&utm_source=rss&utm_medium=rss)
+- `2026-10-05` · [VaultSandbox exploit](https://sploitus.com/exploit?id=65ED52E1-A667-519F-AF19-4E3B5B85CAF0&utm_source=rss&utm_medium=rss)
+- `2026-10-05` · [Exploit for Use After Free in Linux Linux_Kernel](https://sploitus.com/exploit?id=DF775183-7DF1-5BC7-BBDC-1EA34A5B6E53&utm_source=rss&utm_medium=rss)
+- `2026-10-05` · [APKHunt exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-CYBER-BUDDY-APKHUNT&utm_source=rss&utm_medium=rss)
 
 #### > linuxdo
 
-- `2026-10-05` · [🖼 马斯克确认 SpaceXAI 将更名为 SpaceXSI](https://linux.do/t/topic/2982597)
-- `2026-10-05` · [国产llm怎么最近没动作了](https://linux.do/t/topic/2982162)
-- `2026-10-05` · [最新话题 - 2026年10月5日09:00摘要 (近3小时)](https://linux.do/t/topic/2983524)
-- `2026-10-04` · [🖼 Telegram必备的搜索引擎，极搜JISOU帮你精准找到，想要的群组、频道、视频、音乐](https://t.me/linuxdoit/414381)
-- `2026-10-04` · [🖼 gpt 再这么下去要失去我了](https://linux.do/t/topic/2981164)
+- `2026-10-06` · [【深度】碰一碰碰烂Web3，送奶茶送出新经济](https://linux.do/t/topic/2985935)
+- `2026-10-06` · [最新话题 - 2026年10月6日09:00摘要 (近3小时)](https://linux.do/t/topic/2986039)
+- `2026-10-05` · [🖼 [开源] 解除网易UU远程硬解限制补丁](https://linux.do/t/topic/2985054)
+- `2026-10-05` · [[福利] 送出5个全新的已实名4399游戏账号](https://linux.do/t/topic/2984950)
+- `2026-10-05` · [最新话题 - 2026年10月6日06:00摘要 (近3小时)](https://linux.do/t/topic/2985984)
 
 #### > r/golang
 
-- `2026-10-05` · [Francis is the actor framework & workflow engine for Go apps, large...](https://www.reddit.com/r/golang/comments/1wxu465/francis_is_the_actor_framework_workflow_engine/)
-- `2026-10-05` · [Open-source Go plugin: multi-key rotation and cooldown for LLM API ...](https://www.reddit.com/r/golang/comments/1wxoxtp/opensource_go_plugin_multikey_rotation_and/)
-- `2026-10-05` · [How do I make a Go library available on WASM](https://www.reddit.com/r/golang/comments/1wxltu6/how_do_i_make_a_go_library_available_on_wasm/)
+- `2026-10-05` · [Hooking into the Go toolchain](https://www.reddit.com/r/golang/comments/1wym3v0/hooking_into_the_go_toolchain/)
+- `2026-10-05` · [Small Projects](https://www.reddit.com/r/golang/comments/1wyh354/small_projects/)
+- `2026-10-05` · [Nanolathe brings Total Annihilation to Go and WebAssembly](https://www.reddit.com/r/golang/comments/1wydq0h/nanolathe_brings_total_annihilation_to_go_and/)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
@@ -186,7 +186,7 @@ motto : ship the agent you'd trust at 3am
 ## ◢ wakatime
 
 <!-- DYNAMIC:START -->
-<sub align="center">⏳ no wakatime data in last 7 days (2026-09-28 → 2026-10-05, tz=Asia/Shanghai)</sub>
+<sub align="center">⏳ no wakatime data in last 7 days (2026-09-29 → 2026-10-06, tz=Asia/Shanghai)</sub>
 <!-- DYNAMIC:END -->
 
 ---
