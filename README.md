@@ -82,9 +82,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-19-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-62-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-220-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-88-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-388-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-19-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-62-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-220-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-88-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-1018-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-10-06 03:46 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-10-07 03:13 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -96,9 +96,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-10-06) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── anonymous99-Rise (?, pushed 2026-10-06) — personal profile · anonymous99-Rise
-    └── github_monitor (HTML, pushed 2026-10-06) — 实时监控github上新增的cve、自定义关键词、安全工具更新、大佬仓库监控，并多渠道推送通知
+    ├── AI-Account-Toolkit (Python, pushed 2026-10-07) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── anonymous99-Rise (?, pushed 2026-10-07) — personal profile · anonymous99-Rise
+    └── github_monitor (HTML, pushed 2026-10-07) — 实时监控github上新增的cve、自定义关键词、安全工具更新、大佬仓库监控，并多渠道推送通知
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -115,25 +115,11 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 #### > Sploitus (exploits & CVEs)
 
-- `2026-10-05` · [proof-of-exploit](https://sploitus.com/exploit?id=9425E0B6-6BA7-5C80-9FA0-0D15D4376398&utm_source=rss&utm_medium=rss)
-- `2026-10-05` · [Exploit for Injection in Dlink Dir-868L_B1_Firmware](https://sploitus.com/exploit?id=18E87B01-A14E-57E8-A3AB-E3DA945FB6B4&utm_source=rss&utm_medium=rss)
-- `2026-10-05` · [VaultSandbox exploit](https://sploitus.com/exploit?id=65ED52E1-A667-519F-AF19-4E3B5B85CAF0&utm_source=rss&utm_medium=rss)
-- `2026-10-05` · [Exploit for Use After Free in Linux Linux_Kernel](https://sploitus.com/exploit?id=DF775183-7DF1-5BC7-BBDC-1EA34A5B6E53&utm_source=rss&utm_medium=rss)
-- `2026-10-05` · [APKHunt exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-CYBER-BUDDY-APKHUNT&utm_source=rss&utm_medium=rss)
-
-#### > linuxdo
-
-- `2026-10-06` · [【深度】碰一碰碰烂Web3，送奶茶送出新经济](https://linux.do/t/topic/2985935)
-- `2026-10-06` · [最新话题 - 2026年10月6日09:00摘要 (近3小时)](https://linux.do/t/topic/2986039)
-- `2026-10-05` · [🖼 [开源] 解除网易UU远程硬解限制补丁](https://linux.do/t/topic/2985054)
-- `2026-10-05` · [[福利] 送出5个全新的已实名4399游戏账号](https://linux.do/t/topic/2984950)
-- `2026-10-05` · [最新话题 - 2026年10月6日06:00摘要 (近3小时)](https://linux.do/t/topic/2985984)
-
-#### > r/golang
-
-- `2026-10-05` · [Hooking into the Go toolchain](https://www.reddit.com/r/golang/comments/1wym3v0/hooking_into_the_go_toolchain/)
-- `2026-10-05` · [Small Projects](https://www.reddit.com/r/golang/comments/1wyh354/small_projects/)
-- `2026-10-05` · [Nanolathe brings Total Annihilation to Go and WebAssembly](https://www.reddit.com/r/golang/comments/1wydq0h/nanolathe_brings_total_annihilation_to_go_and/)
+- `2026-10-07` · [manageassessment2-stored-xss exploit](https://sploitus.com/exploit?id=F76617D0-8D4F-53D6-BCA3-8CF9291B092D&utm_source=rss&utm_medium=rss)
+- `2026-10-06` · [Exploit for Incorrect Authorization in Qualcomm Aqt1000_Firmware](https://sploitus.com/exploit?id=5F78FC92-3726-589D-92E3-44CA0F1A9B20&utm_source=rss&utm_medium=rss)
+- `2026-10-06` · [CVE-2023-41892 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-ZAENHAXOR-CVE-2023-41892&utm_source=rss&utm_medium=rss)
+- `2026-10-06` · [gitGRAB exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-ANKHCORP-GITGRAB&utm_source=rss&utm_medium=rss)
+- `2026-10-06` · [AI-Vulnerabilities-Playground exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-OWASP-AI-VULNERABILITIES-PLAYGROUND&utm_source=rss&utm_medium=rss)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
@@ -186,7 +172,7 @@ motto : ship the agent you'd trust at 3am
 ## ◢ wakatime
 
 <!-- DYNAMIC:START -->
-<sub align="center">⏳ no wakatime data in last 7 days (2026-09-29 → 2026-10-06, tz=Asia/Shanghai)</sub>
+<sub align="center">⏳ no wakatime data in last 7 days (2026-09-30 → 2026-10-07, tz=Asia/Shanghai)</sub>
 <!-- DYNAMIC:END -->
 
 ---
