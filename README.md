@@ -81,9 +81,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-22-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-64-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-222-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-89-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-321-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-22-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-64-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-222-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-89-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-430-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-10-10 03:14 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-10-11 02:47 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -95,9 +95,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-10-10) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── anonymous99-Rise (?, pushed 2026-10-10) — personal profile · anonymous99-Rise
-    └── github_monitor (HTML, pushed 2026-10-10) — 实时监控github上新增的cve、自定义关键词、安全工具更新、大佬仓库监控，并多渠道推送通知
+    ├── AI-Account-Toolkit (Python, pushed 2026-10-11) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── anonymous99-Rise (?, pushed 2026-10-11) — personal profile · anonymous99-Rise
+    └── github_monitor (HTML, pushed 2026-10-11) — 实时监控github上新增的cve、自定义关键词、安全工具更新、大佬仓库监控，并多渠道推送通知
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -114,11 +114,11 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 #### > Sploitus (exploits & CVEs)
 
-- `2026-10-10` · [Exploit for Classic Buffer Overflow in Apple Macos](https://sploitus.com/exploit?id=33BCB0FD-7DC5-5833-B675-D22DF8FE64BE&utm_source=rss&utm_medium=rss)
-- `2026-10-10` · [Metasploitable2-Exploit](https://sploitus.com/exploit?id=574ED600-347D-5D45-9033-ACA323586DA9&utm_source=rss&utm_medium=rss)
-- `2026-10-09` · [pymap exploit](https://sploitus.com/exploit?id=98E35299-879C-53F1-B801-B0A3D9260A8D&utm_source=rss&utm_medium=rss)
-- `2026-10-09` · [Exploit for CVE-2026-21589](https://sploitus.com/exploit?id=FBA3BACC-C6E2-5B4A-A895-1C6DA0DC7B50&utm_source=rss&utm_medium=rss)
-- `2026-10-09` · [AccuKnox-DVWA-Kubernetes exploit](https://sploitus.com/exploit?id=C6B827F3-A668-5F94-9FEA-C7E2AF6CEA45&utm_source=rss&utm_medium=rss)
+- `2026-10-10` · [Exploit for CVE-2026-102428](https://sploitus.com/exploit?id=6FA1E4CB-12A1-512A-B149-20E9733582D5&utm_source=rss&utm_medium=rss)
+- `2026-10-10` · [Exploit for CVE-2026-108592](https://sploitus.com/exploit?id=10E854B2-F7A2-5D62-B73A-AC01D115C73B&utm_source=rss&utm_medium=rss)
+- `2026-10-10` · [ZeroDroks exploit](https://sploitus.com/exploit?id=546A8FF3-703E-5B5E-AC12-9BA07CBDC87F&utm_source=rss&utm_medium=rss)
+- `2026-10-10` · [phobia exploit](https://sploitus.com/exploit?id=C0F01BF8-79F7-5835-B6F3-DAEA2D7A2BF9&utm_source=rss&utm_medium=rss)
+- `2026-10-10` · [Exploit for Use After Free in Google Android](https://sploitus.com/exploit?id=D6052F1E-75F7-5A2C-A6A6-1CB1976BC3EC&utm_source=rss&utm_medium=rss)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
@@ -171,7 +171,7 @@ motto : ship the agent you'd trust at 3am
 ## ◢ wakatime
 
 <!-- DYNAMIC:START -->
-<sub align="center">⏳ no wakatime data in last 7 days (2026-10-03 → 2026-10-10, tz=Asia/Shanghai)</sub>
+<sub align="center">⏳ no wakatime data in last 7 days (2026-10-04 → 2026-10-11, tz=Asia/Shanghai)</sub>
 <!-- DYNAMIC:END -->
 
 ---
