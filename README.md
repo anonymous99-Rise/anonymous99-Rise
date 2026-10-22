@@ -66,12 +66,13 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 | | repo | what it does | lang |
 |---|---|---|---|
-| 🎯 | **[cloud-mail](https://github.com/anonymous99-Rise/cloud-mail)** | A Cloudflare-based email service  | 基于 Cloudflare 的邮箱服务  | Cloudfla… | `JavaScript` ⭐0 |
-| 🛰️ | **[jarvis](https://github.com/anonymous99-Rise/jarvis)** | JARVIS personal assistant - procurement notice command center demo | `TypeScript` ⭐0 |
-| 🔥 | **[BidMaster-Pro](https://github.com/anonymous99-Rise/BidMaster-Pro)** | 全流程 智能招投标 Agent：标书生成 · 招投标解读 · 标书检查 · 标书文档ai排版 · 商机发现 一键完成。 21 项合规检… | `Python` ⭐3 |
-| 🕸️ | **[yysls-coordinate-webui](https://github.com/anonymous99-Rise/yysls-coordinate-webui)** | 燕云十六声坐标库：6071 个规范化点位 + WebUI + 纯 Python 自动采集（识途寻路 / 视觉识别 / 扫描码发键） | `Python` ⭐3 |
-| 📡 | **[exam-quiz](https://github.com/anonymous99-Rise/exam-quiz)** | CET-6/CET-4 英语真题刷题站：逐题解析、听力原声、整卷模考、进度云同步 | `TypeScript` ⭐0 |
-| 🐚 | **[awesome-dsh-zotero](https://github.com/anonymous99-Rise/awesome-dsh-zotero)** | 🧬 DSH 科研工具手册：Zotero 插件 × DSH Desktop × 生物信息学科研工作流（Markdown 源 + DOCX… | `JavaScript` ⭐1 |
+| 🎯 | **[JiuXiao](https://github.com/anonymous99-Rise/JiuXiao)** | no description | `JavaScript` ⭐0 |
+| 🛰️ | **[cloud-mail](https://github.com/anonymous99-Rise/cloud-mail)** | A Cloudflare-based email service  | 基于 Cloudflare 的邮箱服务  | Cloudfla… | `JavaScript` ⭐0 |
+| 🔥 | **[jarvis](https://github.com/anonymous99-Rise/jarvis)** | JARVIS personal assistant - procurement notice command center demo | `TypeScript` ⭐0 |
+| 🕸️ | **[BidMaster-Pro](https://github.com/anonymous99-Rise/BidMaster-Pro)** | 全流程 智能招投标 Agent：标书生成 · 招投标解读 · 标书检查 · 标书文档ai排版 · 商机发现 一键完成。 21 项合规检… | `Python` ⭐3 |
+| 📡 | **[yysls-coordinate-webui](https://github.com/anonymous99-Rise/yysls-coordinate-webui)** | 燕云十六声坐标库：6071 个规范化点位 + WebUI + 纯 Python 自动采集（识途寻路 / 视觉识别 / 扫描码发键） | `Python` ⭐3 |
+| 🐚 | **[exam-quiz](https://github.com/anonymous99-Rise/exam-quiz)** | CET-6/CET-4 英语真题刷题站：逐题解析、听力原声、整卷模考、进度云同步 | `TypeScript` ⭐0 |
+| 🔎 | **[awesome-dsh-zotero](https://github.com/anonymous99-Rise/awesome-dsh-zotero)** | 🧬 DSH 科研工具手册：Zotero 插件 × DSH Desktop × 生物信息学科研工作流（Markdown 源 + DOCX… | `JavaScript` ⭐1 |
 <!-- DYNAMIC:END -->
 
 ---
@@ -81,9 +82,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-24-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-68-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-226-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-98-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-1963-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-24-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-69-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-227-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-100-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-561-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-10-21 02:26 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-10-22 02:22 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -95,9 +96,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-10-21) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── ai-daily-newsletter (Python, pushed 2026-10-21) — AI Daily Newsletter - 聚合 25+ AI 信息源，每日生成 AI 新闻简报
-    └── honeypot-blocklist (Python, pushed 2026-10-21) — HFish 蜜罐威胁情报源 | High-fidelity Threat Feed derived from HF…
+    ├── AI-Account-Toolkit (Python, pushed 2026-10-22) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── ai-daily-newsletter (Python, pushed 2026-10-22) — AI Daily Newsletter - 聚合 25+ AI 信息源，每日生成 AI 新闻简报
+    └── anonymous99-Rise (?, pushed 2026-10-22) — personal profile · anonymous99-Rise
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -115,10 +116,10 @@ motto : ship the agent you'd trust at 3am
 #### > Sploitus (exploits & CVEs)
 
 - `2026-12-29` · [GNUnet P2P Framework 0.26.2 exploit](https://sploitus.com/exploit?id=PACKETSTORMNEWS:213585&utm_source=rss&utm_medium=rss)
-- `2026-10-21` · [cve-intel-triage exploit](https://sploitus.com/exploit?id=4F04B0C3-2F0A-5B1C-AF27-3DA7C4B8F7E9&utm_source=rss&utm_medium=rss)
-- `2026-10-21` · [RDPassSpray exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-XFREED0M-RDPASSSPRAY&utm_source=rss&utm_medium=rss)
-- `2026-10-21` · [CVE-2024-24919-PoC exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-0NIN0HANZ0-CVE-2024-24919-POC&utm_source=rss&utm_medium=rss)
-- `2026-10-21` · [WebLogic_CNVD_C2019_48814 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-7KBSTORM-WEBLOGIC_CNVD_C2019_48814&utm_source=rss&utm_medium=rss)
+- `2026-10-22` · [Exploit for Improperly Controlled Sequential Memory Allocation in Php](https://sploitus.com/exploit?id=4DE79199-A245-53BB-8B85-03883F5A086A&utm_source=rss&utm_medium=rss)
+- `2026-10-22` · [Exploit for Improperly Controlled Sequential Memory Allocation in Php](https://sploitus.com/exploit?id=91D2FDFA-9ACB-52E9-AD86-7BE33A32F2BB&utm_source=rss&utm_medium=rss)
+- `2026-10-22` · [Exploit for Improperly Controlled Sequential Memory Allocation in Php](https://sploitus.com/exploit?id=B03929A6-50BF-50C1-9BD3-ABBFD9E304F3&utm_source=rss&utm_medium=rss)
+- `2026-10-22` · [Exploit for Improperly Controlled Sequential Memory Allocation in Php](https://sploitus.com/exploit?id=B97CD85F-1729-53D4-A02C-999FF3DBBC71&utm_source=rss&utm_medium=rss)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
@@ -128,9 +129,9 @@ motto : ship the agent you'd trust at 3am
 
 #### > [trailofbits](https://blog.trailofbits.com/feed/)
 
+- `2026-10-21` · [Your AI agent fixed the bug, but what else did it change?](https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/)
 - `2026-10-14` · [Package managers have an integrity problem](https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/)
 - `2026-10-02` · [SequenceHash: multihashing for the rest of us](https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/)
-- `2026-09-25` · [Don't let TEEs break your MPC](https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/)
 <!-- DYNAMIC:END -->
 
 ---
@@ -162,7 +163,7 @@ motto : ship the agent you'd trust at 3am
 
 <!-- DYNAMIC:START -->
 
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="110" viewBox="0 0 820 110" style="background-color:#1a1b26;border:1px solid #15161e;border-radius:10px;font-family:Consolas,monospace;display:inline-block;"><text x="82" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#9d7cd8">24</text><text x="82" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">followers</text><text x="246" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#7aa2f7">68</text><text x="246" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">following</text><text x="410" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#7dcfff">226</text><text x="410" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">repos</text><text x="574" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#bb9af7">98</text><text x="574" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">stars</text><text x="738" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#9ece6a">0</text><text x="738" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">commits</text><line x1="164" y1="10" x2="164" y2="110" stroke="#1a1b26" stroke-width="1"/><line x1="328" y1="10" x2="328" y2="110" stroke="#1a1b26" stroke-width="1"/><line x1="492" y1="10" x2="492" y2="110" stroke="#1a1b26" stroke-width="1"/><line x1="656" y1="10" x2="656" y2="110" stroke="#1a1b26" stroke-width="1"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="110" viewBox="0 0 820 110" style="background-color:#1a1b26;border:1px solid #15161e;border-radius:10px;font-family:Consolas,monospace;display:inline-block;"><text x="82" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#9d7cd8">24</text><text x="82" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">followers</text><text x="246" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#7aa2f7">69</text><text x="246" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">following</text><text x="410" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#7dcfff">227</text><text x="410" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">repos</text><text x="574" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#bb9af7">100</text><text x="574" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">stars</text><text x="738" y="46" text-anchor="middle" font-family="Consolas,monospace" font-size="24" font-weight="bold" fill="#9ece6a">0</text><text x="738" y="68" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#565f89">commits</text><line x1="164" y1="10" x2="164" y2="110" stroke="#1a1b26" stroke-width="1"/><line x1="328" y1="10" x2="328" y2="110" stroke="#1a1b26" stroke-width="1"/><line x1="492" y1="10" x2="492" y2="110" stroke="#1a1b26" stroke-width="1"/><line x1="656" y1="10" x2="656" y2="110" stroke="#1a1b26" stroke-width="1"/></svg>
 
 <!-- DYNAMIC:END -->
 
@@ -171,7 +172,7 @@ motto : ship the agent you'd trust at 3am
 ## ◢ wakatime
 
 <!-- DYNAMIC:START -->
-<sub align="center">⏳ no wakatime data in last 7 days (2026-10-14 → 2026-10-21, tz=Asia/Shanghai)</sub>
+<sub align="center">⏳ no wakatime data in last 7 days (2026-10-15 → 2026-10-22, tz=Asia/Shanghai)</sub>
 <!-- DYNAMIC:END -->
 
 ---
