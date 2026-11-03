@@ -82,9 +82,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-23-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-69-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-231-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-122-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-95-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-23-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-69-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-231-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-122-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-402-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-11-02 03:16 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-11-03 04:30 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -96,9 +96,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-11-02) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── ai-daily-newsletter (Python, pushed 2026-11-02) — AI Daily Newsletter - 聚合 25+ AI 信息源，每日生成 AI 新闻简报
-    └── anonymous99-Rise (?, pushed 2026-11-02) — personal profile · anonymous99-Rise
+    ├── AI-Account-Toolkit (Python, pushed 2026-11-03) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── ai-daily-newsletter (Python, pushed 2026-11-03) — AI Daily Newsletter - 聚合 25+ AI 信息源，每日生成 AI 新闻简报
+    └── anonymous99-Rise (?, pushed 2026-11-03) — personal profile · anonymous99-Rise
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -115,11 +115,11 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 #### > Sploitus (exploits & CVEs)
 
-- `2026-11-02` · [Exploit for CVE-2026-98432](https://sploitus.com/exploit?id=27F92674-EBD5-513F-9A0D-D89326485CFA&utm_source=rss&utm_medium=rss)
-- `2026-11-02` · [cypheroth exploit](https://sploitus.com/exploit?id=KITPLOIT:452301745121929159&utm_source=rss&utm_medium=rss)
-- `2026-11-01` · [Sharperner exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-ANIQFAKHRUL-SHARPERNER&utm_source=rss&utm_medium=rss)
-- `2026-11-01` · [Vulners Software Audit exploit](https://sploitus.com/exploit?id=KS:SCANNER-VULNERS-SOFTWARE_AUDIT&utm_source=rss&utm_medium=rss)
-- `2026-11-01` · [GodGenesis exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-SAUMYAJEETDAS-GODGENESIS&utm_source=rss&utm_medium=rss)
+- `2026-11-03` · [Exploit for CVE-2026-98432](https://sploitus.com/exploit?id=0123D75C-CD62-5200-9C76-02638EA04FCE&utm_source=rss&utm_medium=rss)
+- `2026-11-03` · [CVE-2026-120831 exploit](https://sploitus.com/exploit?id=CVE-2026-120831&utm_source=rss&utm_medium=rss)
+- `2026-11-03` · [CVE-2026-76955 exploit](https://sploitus.com/exploit?id=CVE-2026-76955&utm_source=rss&utm_medium=rss)
+- `2026-11-03` · [CVE-2026-107441 exploit](https://sploitus.com/exploit?id=CVE-2026-107441&utm_source=rss&utm_medium=rss)
+- `2026-11-03` · [blackout-public exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-CLARK-PROG-BLACKOUT-PUBLIC&utm_source=rss&utm_medium=rss)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
@@ -129,9 +129,9 @@ motto : ship the agent you'd trust at 3am
 
 #### > [trailofbits](https://blog.trailofbits.com/feed/)
 
+- `2026-11-02` · [Backporting security fixes at scale with Codex](https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/)
 - `2026-10-21` · [Your AI agent fixed the bug, but what else did it change?](https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/)
 - `2026-10-14` · [Package managers have an integrity problem](https://blog.trailofbits.com/2026/10/14/package-managers-have-an-integrity-problem/)
-- `2026-10-02` · [SequenceHash: multihashing for the rest of us](https://blog.trailofbits.com/2026/10/02/sequencehash-multihashing-for-the-rest-of-us/)
 <!-- DYNAMIC:END -->
 
 ---
