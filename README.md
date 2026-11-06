@@ -82,9 +82,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-23-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-69-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-231-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-125-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-423-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-23-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-69-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-231-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-125-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-n/a-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-11-05 04:08 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-11-06 04:05 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -96,9 +96,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-11-05) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── ai-daily-newsletter (Python, pushed 2026-11-05) — AI Daily Newsletter - 聚合 25+ AI 信息源，每日生成 AI 新闻简报
-    └── anonymous99-Rise (?, pushed 2026-11-05) — personal profile · anonymous99-Rise
+    ├── AI-Account-Toolkit (Python, pushed 2026-11-06) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── ai-daily-newsletter (Python, pushed 2026-11-06) — AI Daily Newsletter - 聚合 25+ AI 信息源，每日生成 AI 新闻简报
+    └── github_monitor (HTML, pushed 2026-11-06) — 实时监控github上新增的cve、自定义关键词、安全工具更新、大佬仓库监控，并多渠道推送通知
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -115,11 +115,11 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 #### > Sploitus (exploits & CVEs)
 
-- `2026-11-05` · [Exploit for Improperly Controlled Sequential Memory Allocation in Php](https://sploitus.com/exploit?id=654FB04E-82EE-5183-AC89-EB6B2BEC9636&utm_source=rss&utm_medium=rss)
-- `2026-11-05` · [sisu exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-SEMONTE-SISU&utm_source=rss&utm_medium=rss)
-- `2026-11-05` · [gtfocli exploit](https://sploitus.com/exploit?id=KITPLOIT:3536309726077760032&utm_source=rss&utm_medium=rss)
-- `2026-11-05` · [Exploit for CVE-2026-111943](https://sploitus.com/exploit?id=BBD230AF-B94E-517E-91BD-B4D8E7EDB150&utm_source=rss&utm_medium=rss)
-- `2026-11-05` · [eternal_check exploit](https://sploitus.com/exploit?id=KITPLOIT:7763815889924177635&utm_source=rss&utm_medium=rss)
+- `2026-11-06` · [Exploit for CVE-2026-123158](https://sploitus.com/exploit?id=C7BEBF2B-9C42-5FA8-80E1-3D371B3C964F&utm_source=rss&utm_medium=rss)
+- `2026-11-06` · [Exploit for CVE-2026-116214](https://sploitus.com/exploit?id=9E64B1AD-0E1A-563F-9D46-8EABA06936E2&utm_source=rss&utm_medium=rss)
+- `2026-11-06` · [Exploit for Improperly Controlled Sequential Memory Allocation in Php](https://sploitus.com/exploit?id=FFC7F60F-3CE7-5F32-8494-BCB0A04AD2FB&utm_source=rss&utm_medium=rss)
+- `2026-11-06` · [CVE-2026-20127 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-0XBLACKASH-CVE-2026-20127&utm_source=rss&utm_medium=rss)
+- `2026-11-06` · [Exploit for Deserialization of Untrusted Data in Openidentityplatfo...](https://sploitus.com/exploit?id=5B99B68F-4E72-5873-8249-6C05E5D19D2C&utm_source=rss&utm_medium=rss)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
