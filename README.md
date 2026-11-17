@@ -72,7 +72,7 @@ motto : ship the agent you'd trust at 3am
 | 🕸️ | **[cloud-mail](https://github.com/anonymous99-Rise/cloud-mail)** | A Cloudflare-based email service  | 基于 Cloudflare 的邮箱服务  | Cloudfla… | `JavaScript` ⭐1 |
 | 📡 | **[jarvis](https://github.com/anonymous99-Rise/jarvis)** | JARVIS personal assistant - procurement notice command center demo | `TypeScript` ⭐0 |
 | 🐚 | **[BidMaster-Pro](https://github.com/anonymous99-Rise/BidMaster-Pro)** | 全流程 智能招投标 Agent：标书生成 · 招投标解读 · 标书检查 · 标书文档ai排版 · 商机发现 一键完成。 21 项合规检… | `Python` ⭐4 |
-| 🔎 | **[yysls-coordinate-webui](https://github.com/anonymous99-Rise/yysls-coordinate-webui)** | 燕云十六声坐标库：6071 个规范化点位 + WebUI + 纯 Python 自动采集（识途寻路 / 视觉识别 / 扫描码发键） | `Python` ⭐3 |
+| 🔎 | **[yysls-coordinate-webui](https://github.com/anonymous99-Rise/yysls-coordinate-webui)** | 燕云十六声坐标库：6071 个规范化点位 + WebUI + 纯 Python 自动采集（识途寻路 / 视觉识别 / 扫描码发键） | `Python` ⭐2 |
 <!-- DYNAMIC:END -->
 
 ---
@@ -82,9 +82,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-21-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-69-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-236-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-129-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-n/a-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-21-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-69-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-236-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-129-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-439-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-11-15 03:43 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-11-17 05:39 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -96,9 +96,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-11-15) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── ai-daily-newsletter (Python, pushed 2026-11-15) — AI Daily Newsletter - 聚合 25+ AI 信息源，每日生成 AI 新闻简报
-    └── anonymous99-Rise (?, pushed 2026-11-15) — personal profile · anonymous99-Rise
+    ├── AI-Account-Toolkit (Python, pushed 2026-11-17) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── ai-daily-newsletter (Python, pushed 2026-11-17) — AI Daily Newsletter - 聚合 25+ AI 信息源，每日生成 AI 新闻简报
+    └── github_monitor (HTML, pushed 2026-11-17) — 实时监控github上新增的cve、自定义关键词、安全工具更新、大佬仓库监控，并多渠道推送通知
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -116,10 +116,10 @@ motto : ship the agent you'd trust at 3am
 #### > Sploitus (exploits & CVEs)
 
 - `2026-12-05` · [Security Advisory Ivanti Endpoint Manager (EPM) May 2026 exploit](https://sploitus.com/exploit?id=IVANTI:39F643D7379EB957A047795166410B36&utm_source=rss&utm_medium=rss)
-- `2026-11-15` · [mibox3s-utgard-lpe exploit](https://sploitus.com/exploit?id=1D5F0B02-0E8C-546E-8C97-86C70D21B044&utm_source=rss&utm_medium=rss)
-- `2026-11-15` · [cve-2010-3333 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-WHITEHAT001-CVE-2010-3333&utm_source=rss&utm_medium=rss)
-- `2026-11-15` · [Exploit for CVE-2026-126909](https://sploitus.com/exploit?id=BBB08203-E68C-55D1-AE45-6F204DFAB2DE&utm_source=rss&utm_medium=rss)
-- `2026-11-15` · [Nginx-Remote-Integer-Overflow-Vulnerability exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-MO3ZJ-NGINX-REMOTE-INTEGER-OVERFLOW-VULNERABILITY&utm_source=rss&utm_medium=rss)
+- `2026-11-17` · [Exploit for CVE-2026-90436](https://sploitus.com/exploit?id=E28D8630-4C6D-593E-A939-742BD67C2533&utm_source=rss&utm_medium=rss)
+- `2026-11-17` · [Exploit for CVE-2026-90436](https://sploitus.com/exploit?id=D8D66EA3-C0BE-5B77-B4A0-10CC560E4F6B&utm_source=rss&utm_medium=rss)
+- `2026-11-17` · [Exploit for Exposure of Sensitive Information to an Unauthorized Ac...](https://sploitus.com/exploit?id=AF31DCC1-3224-5A95-87F5-74AACD7FED91&utm_source=rss&utm_medium=rss)
+- `2026-11-17` · [Exploit for Incorrect Implementation of Authentication Algorithm in...](https://sploitus.com/exploit?id=D326FDF3-A61D-5B00-B832-2D369A0CAA1B&utm_source=rss&utm_medium=rss)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
