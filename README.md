@@ -82,9 +82,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-21-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-69-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-236-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-129-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-439-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-21-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-69-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-236-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-129-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-1258-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-11-17 05:39 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-11-18 05:02 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -96,9 +96,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-11-17) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── ai-daily-newsletter (Python, pushed 2026-11-17) — AI Daily Newsletter - 聚合 25+ AI 信息源，每日生成 AI 新闻简报
-    └── github_monitor (HTML, pushed 2026-11-17) — 实时监控github上新增的cve、自定义关键词、安全工具更新、大佬仓库监控，并多渠道推送通知
+    ├── AI-Account-Toolkit (Python, pushed 2026-11-18) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── ai-daily-newsletter (Python, pushed 2026-11-18) — AI Daily Newsletter - 聚合 25+ AI 信息源，每日生成 AI 新闻简报
+    └── github_monitor (HTML, pushed 2026-11-18) — 实时监控github上新增的cve、自定义关键词、安全工具更新、大佬仓库监控，并多渠道推送通知
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -116,10 +116,10 @@ motto : ship the agent you'd trust at 3am
 #### > Sploitus (exploits & CVEs)
 
 - `2026-12-05` · [Security Advisory Ivanti Endpoint Manager (EPM) May 2026 exploit](https://sploitus.com/exploit?id=IVANTI:39F643D7379EB957A047795166410B36&utm_source=rss&utm_medium=rss)
-- `2026-11-17` · [Exploit for CVE-2026-90436](https://sploitus.com/exploit?id=E28D8630-4C6D-593E-A939-742BD67C2533&utm_source=rss&utm_medium=rss)
-- `2026-11-17` · [Exploit for CVE-2026-90436](https://sploitus.com/exploit?id=D8D66EA3-C0BE-5B77-B4A0-10CC560E4F6B&utm_source=rss&utm_medium=rss)
-- `2026-11-17` · [Exploit for Exposure of Sensitive Information to an Unauthorized Ac...](https://sploitus.com/exploit?id=AF31DCC1-3224-5A95-87F5-74AACD7FED91&utm_source=rss&utm_medium=rss)
-- `2026-11-17` · [Exploit for Incorrect Implementation of Authentication Algorithm in...](https://sploitus.com/exploit?id=D326FDF3-A61D-5B00-B832-2D369A0CAA1B&utm_source=rss&utm_medium=rss)
+- `2026-11-18` · [Exploit for CVE-2026-114938](https://sploitus.com/exploit?id=E0AD1867-8AEE-5692-BFBE-76745140BBD8&utm_source=rss&utm_medium=rss)
+- `2026-11-18` · [Exploit for CVE-2026-131850](https://sploitus.com/exploit?id=99CA1C73-C2DC-5506-81E3-C3AF090E6135&utm_source=rss&utm_medium=rss)
+- `2026-11-18` · [Exploit for Out-of-bounds Write in Apple Ipados](https://sploitus.com/exploit?id=A4FEC503-A2C6-53EC-9B51-21B36F064808&utm_source=rss&utm_medium=rss)
+- `2026-11-18` · [worse_query exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-FORCEQUITOS-WORSE_QUERY&utm_source=rss&utm_medium=rss)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
