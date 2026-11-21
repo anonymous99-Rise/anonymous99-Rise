@@ -82,9 +82,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-21-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-69-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-236-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-130-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-1049-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-21-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-69-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-236-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-130-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-738-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-11-20 04:48 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-11-21 04:43 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -96,9 +96,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-11-20) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── ai-daily-newsletter (Python, pushed 2026-11-20) — AI Daily Newsletter - 聚合 25+ AI 信息源，每日生成 AI 新闻简报
-    └── anonymous99-Rise (?, pushed 2026-11-20) — personal profile · anonymous99-Rise
+    ├── ai-daily-newsletter (Python, pushed 2026-11-21) — AI Daily Newsletter - 聚合 25+ AI 信息源，每日生成 AI 新闻简报
+    ├── github_monitor (HTML, pushed 2026-11-21) — 实时监控github上新增的cve、自定义关键词、安全工具更新、大佬仓库监控，并多渠道推送通知
+    └── anonymous99-Rise (?, pushed 2026-11-21) — personal profile · anonymous99-Rise
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -116,10 +116,10 @@ motto : ship the agent you'd trust at 3am
 #### > Sploitus (exploits & CVEs)
 
 - `2026-12-05` · [Security Advisory Ivanti Endpoint Manager (EPM) May 2026 exploit](https://sploitus.com/exploit?id=IVANTI:39F643D7379EB957A047795166410B36&utm_source=rss&utm_medium=rss)
-- `2026-11-20` · [Exploit for CVE-2026-103033](https://sploitus.com/exploit?id=EC4C64FA-376E-5B22-BDCB-30373A749E8F&utm_source=rss&utm_medium=rss)
-- `2026-11-20` · [Exploit for Integer Underflow (Wrap or Wraparound) in F5 Dos](https://sploitus.com/exploit?id=C6C14BFC-2FB1-527C-A137-4D807B0BD6D9&utm_source=rss&utm_medium=rss)
-- `2026-11-20` · [Exploit for Improperly Controlled Sequential Memory Allocation in Php](https://sploitus.com/exploit?id=B40581D7-D2C2-55F1-918F-216FEDCD771D&utm_source=rss&utm_medium=rss)
-- `2026-11-20` · [Exploit for Heap-based Buffer Overflow in Oracle Jdk](https://sploitus.com/exploit?id=15EA40A5-2D3D-505D-B635-46094EDAB9E8&utm_source=rss&utm_medium=rss)
+- `2026-11-21` · [Exploit for CVE-2026-104884](https://sploitus.com/exploit?id=F40613BD-E52D-5CB0-B628-E8005B89921F&utm_source=rss&utm_medium=rss)
+- `2026-11-21` · [claude-code-security-audit exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-ABHISHEK2512MISHRA-CLAUDE-CODE-SECURITY-AUDIT&utm_source=rss&utm_medium=rss)
+- `2026-11-21` · [B63-POC-CVE-2026-75650 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-BASESIXTYTHREE-B63-POC-CVE-2026-75650&utm_source=rss&utm_medium=rss)
+- `2026-11-21` · [CVE-2025-40554 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-SKYNOXK-CVE-2025-40554&utm_source=rss&utm_medium=rss)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
