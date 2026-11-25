@@ -81,9 +81,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 <div align="center">
 
-![followers](https://img.shields.io/badge/followers-23-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-71-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-239-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-130-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-479-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
+![followers](https://img.shields.io/badge/followers-23-8A2BE2?style=for-the-badge&logo=github&logoColor=white) ![following](https://img.shields.io/badge/following-71-FF6B35?style=for-the-badge&logo=github&logoColor=white) ![public_repos](https://img.shields.io/badge/repos-239-3178C6?style=for-the-badge&logo=github&logoColor=white) ![total_stars](https://img.shields.io/badge/stars-130-DC143C?style=for-the-badge&logo=github&logoColor=white) ![cve_24h](https://img.shields.io/badge/CVE_24h-897-D93B3B?style=for-the-badge&logo=commonvulnerabilitiesandexposures&logoColor=white)
 
-<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-11-24 07:30 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
+<sub>🤖 auto-refreshed by <code>profile-pulse.yml</code> · last pulse <code>2026-11-25 05:59 UTC</code> · <a href="commits/main/.github/workflows/profile-pulse.yml">history</a></sub>
 
 </div>
 <!-- DYNAMIC:END -->
@@ -95,9 +95,9 @@ motto : ship the agent you'd trust at 3am
 <!-- DYNAMIC:START -->
 ```text
 [+] recent focus
-    ├── AI-Account-Toolkit (Python, pushed 2026-11-24) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
-    ├── ai-daily-newsletter (Python, pushed 2026-11-24) — AI Daily Newsletter - 聚合 25+ AI 信息源，每日生成 AI 新闻简报
-    └── anonymous99-Rise (?, pushed 2026-11-24) — personal profile · anonymous99-Rise
+    ├── AI-Account-Toolkit (Python, pushed 2026-11-25) — 浴火重生|以后会在此更新。AI 账号注册与管理一站式工具集 | ChatGPT, Claude, Gemini, …
+    ├── ai-daily-newsletter (Python, pushed 2026-11-25) — AI Daily Newsletter - 聚合 25+ AI 信息源，每日生成 AI 新闻简报
+    └── anonymous99-Rise (?, pushed 2026-11-25) — personal profile · anonymous99-Rise
 
 [+] currently learning
     ├── langgraph deep dive — durable execution semantics
@@ -115,10 +115,10 @@ motto : ship the agent you'd trust at 3am
 #### > Sploitus (exploits & CVEs)
 
 - `2026-12-05` · [Security Advisory Ivanti Endpoint Manager (EPM) May 2026 exploit](https://sploitus.com/exploit?id=IVANTI:39F643D7379EB957A047795166410B36&utm_source=rss&utm_medium=rss)
-- `2026-11-24` · [ACSAS-Backend exploit](https://sploitus.com/exploit?id=27BAC170-6988-5E98-8A3C-3A760A766DDF&utm_source=rss&utm_medium=rss)
-- `2026-11-24` · [remote-greybox-exploit-development](https://sploitus.com/exploit?id=1FDFF9C8-6461-5A4A-9583-B7646B3BD3A3&utm_source=rss&utm_medium=rss)
-- `2026-11-24` · [Exploit for Unrestricted Upload of File with Dangerous Type in Cham...](https://sploitus.com/exploit?id=DD9F5584-0BD6-51E5-974A-16BD11DE2D91&utm_source=rss&utm_medium=rss)
-- `2026-11-24` · [Vulners Software Audit exploit](https://sploitus.com/exploit?id=KS:SCANNER-VULNERS-SOFTWARE_AUDIT&utm_source=rss&utm_medium=rss)
+- `2026-11-25` · [CVE-2026-13001 exploit](https://sploitus.com/exploit?id=KITPLOIT:TOOLS-GITHUB-SHINTHINK-CVE-2026-13001&utm_source=rss&utm_medium=rss)
+- `2026-11-25` · [Exploit for Improper Input Validation in Paloaltonetworks Pan-Os](https://sploitus.com/exploit?id=3C0B5415-8ABB-5725-8B5D-2CB6BD53BAE7&utm_source=rss&utm_medium=rss)
+- `2026-11-25` · [dvwa-web-vulnerability-lab exploit](https://sploitus.com/exploit?id=FBE88236-2305-54E4-A85F-025BAFCC9861&utm_source=rss&utm_medium=rss)
+- `2026-11-25` · [Exploit for CVE-2026-132165](https://sploitus.com/exploit?id=8EF84F18-AAEF-571F-BFEC-E78D542A949A&utm_source=rss&utm_medium=rss)
 
 #### > [steipete](https://steipete.me/rss.xml)
 
